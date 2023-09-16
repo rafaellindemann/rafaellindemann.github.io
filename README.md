@@ -4,6 +4,14 @@ Uma coleção de links úteis para devs e aprendizes :D
 
 
 
+Opção: https://myjson.online/
+
+    - Criei a conta com o login rafaelld pelo google.
+    - a leitura com o template de get que tem no próprio bin funcionou;
+    - o que o gepeto gerou deu nhaca.
+    - Salvei um js pra cada um pra analisar com mais tempo depois.
+
+
 
 ## 230916 1443: 
 usando a access key que eu criei consegui ler, mas deu erro ao tentar salvar
