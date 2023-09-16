@@ -2,7 +2,19 @@
 Uma coleção de links úteis para devs e aprendizes :D
 
 
-230916: consegui ler bin público, mas ainda deu erro no bin privado:
+
+
+
+## 230916 1443: 
+usando a access key que eu criei consegui ler, mas deu erro ao tentar salvar
+
+" teste.js:48     PUT https://api.jsonbin.io/v3/b/6505b84bd972192679c4e9e2 401
+salvarDadosNoBin @ teste.js:48
+(anonymous) @ VM173:1
+teste.js:58 Dados salvos com sucesso: {message: 'You need to pass X-Master-Key or X-Access-Key in the header to update a private bin'} "
+
+
+## 230916: consegui ler bin público, mas ainda deu erro no bin privado:
 
 lerDadosDoBin()
 undefined
