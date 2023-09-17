@@ -11,9 +11,17 @@ Opção: https://myjson.online/
     - o que o gepeto gerou deu nhaca.
     - Salvei um js pra cada um pra analisar com mais tempo depois.
 
+## 230917 1315
+Consegui salvar o hello world da documentação usando a master key
+A leitura está funcionando com a access key, mas não com a master
+
+Posso tentar fazer a gravação com a master e a leitura com a access.
+    - primeiro preciso gravar um conteúdo de verdade com a master;
+    - se isso funcionar, crio uma variável pra cada key e uso cada uma pra uma ação diferente.
 
 
-## 230917 
+
+## 230917 1200
 leitura private funfa. Vetor cai em 
 cursosData.record.vacinas
 
