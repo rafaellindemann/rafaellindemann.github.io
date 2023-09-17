@@ -11,6 +11,13 @@ Opção: https://myjson.online/
     - o que o gepeto gerou deu nhaca.
     - Salvei um js pra cada um pra analisar com mais tempo depois.
 
+## 230917 1600
+Chaves separadas;
+Já lê e escreve, mas o formato da resposta ainda está encapsulado. Preciso remover somente o dado de lá.
+Após isso, criar tipo uma libzinha para reaproveitamento. talvez um método setup(binId, accesskey, masterKey).
+    - Seria interessante a lib criar o objeto handler 
+    - ex: jsonBin.setup(), jsonBin.read(), jsonBin.write()
+
 ## 230917 1315
 Consegui salvar o hello world da documentação usando a master key
 A leitura está funcionando com a access key, mas não com a master
