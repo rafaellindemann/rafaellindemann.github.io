@@ -13,8 +13,17 @@ Opção: https://myjson.online/
 
 
 
+## 230917 
+leitura private funfa. Vetor cai em 
+cursosData.record.vacinas
+
+acrescentei um botao para modificar o vetor antes de enviar.
+
+Vou tentar seguir a documentação na função de salvar. 
+
+
 ## 230916 1443: 
-usando a access key que eu criei consegui ler, mas deu erro ao tentar salvar
+usando a access key que eu criei consegui ler private, mas deu erro ao tentar salvar
 
 " teste.js:48     PUT https://api.jsonbin.io/v3/b/6505b84bd972192679c4e9e2 401
 salvarDadosNoBin @ teste.js:48

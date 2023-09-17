@@ -20,6 +20,13 @@
             "nome": "dev.to",
             "descricao": "Plataforma de artigos incríveis",
             "link": "dev.to"
+        },
+        {
+            "id": 4,
+            "tipo": "forum", 
+            "nome": "tabnews",
+            "descricao": "Plataforma de artigos e trocação de ideias",
+            "link": "tabnews.com.br"
         }
     ]
 }
