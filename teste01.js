@@ -1,39 +1,15 @@
-// const binId = '6505bda4e4033326cbd8b7ac'; // vacinasP
 const binId = '6505b84bd972192679c4e9e2'; // vacinas
 
-const apiKey = '$2b$10$C/H.VFdgfTR6E8YtcX7MBOLNtZQOZ07pITaZNATiIlVI0wQPnE.cO'; // X-Master-key
-// const apiKey = '$2b$10$vo5ahIn3aEWhnCYQ9kMg9.v9CrISlIllx9DYFXLw45KDnSdW22RQq'; // acess key que eu criei
-// $2b$10$C/H.VFdgfTR6E8YtcX7MBOLNtZQOZ07pITaZNATiIlVI0wQPnE.cO
 
 const xMasterKey = '$2b$10$C/H.VFdgfTR6E8YtcX7MBOLNtZQOZ07pITaZNATiIlVI0wQPnE.cO'; // usada para escrita
 const xAccessKey = '$2b$10$vo5ahIn3aEWhnCYQ9kMg9.v9CrISlIllx9DYFXLw45KDnSdW22RQq'; // usada para leitura
 
-// const apiUrl = `https://api.jsonbin.io/b/${binId}`;
 const apiUrl = `https://api.jsonbin.io/v3/b/${binId}`;
-// https://api.jsonbin.io/v3/b/6505bda4e4033326cbd8b7ac
-
-// Função para ler os dados do bin
-// function lerDadosDoBin() {
-//   fetch(apiUrl, {
-//     headers: {
-//       'secret-key': apiKey,
-//     },
-//   })
-//     .then((response) => response.json())
-//     .then((data) => {
-//       console.log(data);
-//       // Faça algo com os dados lidos, por exemplo, exiba-os na página
-//     })
-//     .catch((error) => {
-//       console.error('Erro ao ler dados do bin:', error);
-//     });
-// }
 
 
 function lerDadosDoBin() {
     const headers = {
-      // 'X-Access-Key': apiKey, // Substitua 'SUA_CHAVE_DE_ACESSO' pela sua chave de acesso específica para o bin privado.
-      'X-Access-Key': xAccessKey, // Substitua 'SUA_CHAVE_DE_ACESSO' pela sua chave de acesso específica para o bin privado.
+      'X-Access-Key': xAccessKey,
     };
   
     fetch(apiUrl, {
@@ -43,33 +19,33 @@ function lerDadosDoBin() {
       .then((data) => {
         console.log(data);
         // Faça algo com os dados lidos
-        cursosData = data
+        cursosData = data.record
       })
       .catch((error) => {
         console.error('Erro ao ler dados do bin:', error);
       });
   }
 
-// Função para salvar dados no bin
-function salvarDadosNoBin(data) {
-  fetch(apiUrl, {
-    method: 'PUT',
-    headers: {
-      'Content-Type': 'application/json',
-      // 'secret-key': apiKey,
-      'secret-key': xMasterKey,
-    },
-    body: JSON.stringify(data),
-  })
-    .then((response) => response.json())
-    .then((responseData) => {
-      console.log('Dados salvos com sucesso:', responseData);
-      // Pode realizar ações adicionais após salvar os dados, se necessário
-    })
-    .catch((error) => {
-      console.error('Erro ao salvar dados no bin:', error);
-    });
-}
+// // Função para salvar dados no bin; Versão gepeto, não funcionou nos testes
+// function salvarDadosNoBin(data) {
+//   fetch(apiUrl, {
+//     method: 'PUT',
+//     headers: {
+//       'Content-Type': 'application/json',
+//       // 'secret-key': apiKey,
+//       'secret-key': xMasterKey,
+//     },
+//     body: JSON.stringify(data),
+//   })
+//     .then((response) => response.json())
+//     .then((responseData) => {
+//       console.log('Dados salvos com sucesso:', responseData);
+//       // Pode realizar ações adicionais após salvar os dados, se necessário
+//     })
+//     .catch((error) => {
+//       console.error('Erro ao salvar dados no bin:', error);
+//     });
+// }
 
 function salvarDadosVersaoDocs(){
   let req = new XMLHttpRequest();
@@ -82,26 +58,24 @@ function salvarDadosVersaoDocs(){
   
   req.open("PUT", `https://api.jsonbin.io/v3/b/${binId}`, true);
   req.setRequestHeader("Content-Type", "application/json");
-  // req.setRequestHeader("X-Master-Key", apiKey);
   req.setRequestHeader("X-Master-Key", xMasterKey);
-  // req.send('{"sample": "Hello World"}');  
   req.send(JSON.stringify(cursosData));  
 }
 
-
+// só pra usar nos testes funcionais
 function aumentarUmRegistro(){
   let curso =         {
-    "id": 4,
+    "id": 5,
     "tipo": "forum", 
     "nome": "tabnews",
     "descricao": "Plataforma de artigos e trocação de ideias",
     "link": "tabnews.com.br"
 }
 
-  cursosData.record.vacinas.push(curso)
+  cursosData.cursos.push(curso)
 }
 
-// Exemplo de uso:
+
 let cursosData = {
   cursos: [
     {
@@ -119,8 +93,4 @@ let cursosData = {
   ]
 };
 
-// Para salvar dados no bin
-//salvarDadosNoBin(cursosData);
 
-// Para ler dados do bin
-//lerDadosDoBin();
