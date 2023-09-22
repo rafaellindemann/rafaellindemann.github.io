@@ -16,7 +16,8 @@ A primeira versão pode ser até em JS mesmo, com um vetor de registros, só fro
 
 Dados por registro:
 - Nome
-- Tipo/categoria => CanaisYT, CursosYT, Cursos, Tutoriais, Fóruns, Ferramentas, Redes, Jogos
+- Tipo/categoria => Curso Youtube, Cursos, Sites, Carreira, Canal YouTube
+    -CanaisYT,   Tutoriais, Fóruns, Ferramentas, Redes, Jogos
 - Descrição
 - link
 - Tags

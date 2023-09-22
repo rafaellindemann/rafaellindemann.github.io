@@ -6,7 +6,17 @@ const vacinas = [
     {nome: 'Curso em Vídeo, HTML5 e CSS3, Módulo 4/5', categoria: 'Curso Youtube', descricao: 'O primeiro módulo do melhor curso de front para iniciantes, pelo melhor professor do mundo.', link: 'https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT', tags: ['HTML', 'CSS', 'Curso', 'Youtube', 'Guanabara', 'Curso em vídeo', 'Senta e assiste']},
     {nome: 'W3Schools', categoria: 'Sites', descricao: 'Dá pra encarar como documentação (e curso) de várias linguagens de programação.', link: 'https://www.w3schools.com/', tags: ['HTML', 'JS', 'CSS', 'Documentação', 'Curso', 'Tutorial', 'Exercícios']},
     {nome: 'Tech Guide', categoria: 'Carreira', descricao: 'Um guia da Alura que pretende mostrar o que você precisa aprender para ser um profissional "em T" nas mais diversas área da tecnologia.', link: '', tags: []},
+    {nome: 'Curso em Vídeo, JavaCript para Iniciantes', categoria: 'Curso Youtube', descricao: 'O basicão de JavaScript muito bem visto com o padrão Guanabara de qualidade', link: 'https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&ab_channel=CursoemV%C3%ADdeo', tags: ['JS','Curso', 'Youtube', 'Guanabara', 'Curso em vídeo', 'Senta e assiste']},
+    {nome: 'Curso em Vídeo, Git e GitHub', categoria: 'Curso Youtube', descricao: 'O Curso de Git e Github do Guanabara, usando o GitHub Desktop (sem linha de comando)', link: 'https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&ab_channel=CursoemV%C3%ADdeo', tags: ['Curso em vídeo', 'Guanabara', 'Git', 'GitHub', 'GitHub Desktop']},
+    {nome: 'Curso em Vídeo - Lógica de Programação', categoria: 'Curso Youtube', descricao: 'O famoso curso de lógica de programação do Guanabara. Infelizmente ele usa o VisualG na maior parte, mas se abstrair isso super vale a pena! De bônus, o curso inicia com o maravitop Scratch!', link: 'https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&ab_channel=CursoemV%C3%ADdeo', tags: ['Lógica', 'Scratch', 'Guanabara', 'VisualG']},
+    {nome: 'freeCodeCamp', categoria: 'Cursos', descricao: 'Muito curso da gringa, super completos e com uma galera muito forte. Os cursos são muito completos, grandes, gratuitos, com certificados gratuitos e em inglês. O site conta com tradução para o português. Chegou a hora de pedir desculpas ao Guanabara por dizer que ele “enrola demais” nas explicações e mostrar que tu tem o que precisa pra dominar a arte da programação. Não deixa de ver o canal do freeCodeCamp aqui no outro quadradinho.', link: 'https://www.freecodecamp.org/', tags: ['Muitos cursos', 'Certificados', 'Tutoriais', 'freeCodeCamp']},
+    {nome: 'Canal do freeCodeCamp', categoria: 'Canal YouTube', descricao: 'Muito curso da gringa, super completos e com uma galera muito forte. Os cursos são muito completos, grandes, gratuitos, com certificados gratuitos e em inglês. O próprio youtube gera legendas automáticas em português então o inglês não vai ser problema. Chegou a hora de pedir desculpas ao Guanabara por dizer que ele “enrola demais” nas explicações e mostrar que tu tem o que precisa pra dominar a arte da programação. Não deixa de ver o site do freeCodeCamp aqui no outro quadradinho.', link: 'https://www.youtube.com/@freecodecamp', tags: ["freeCodeCamp", 'Cursos', 'Tutoriais']},
+
+
 ]
+
+
+// {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
 
 
