@@ -16,11 +16,14 @@ A primeira versão pode ser até em JS mesmo, com um vetor de registros, só fro
 
 Dados por registro:
 - Nome
-- Tipo/categoria => CanaisYT, CursosYT, Cursos, Ferramentas, Redes, 
+- Tipo/categoria => CanaisYT, CursosYT, Cursos, Tutoriais, Fóruns, Ferramentas, Redes, 
 - Descrição
 - link
 - Tags
 
 
+
+- array de filtros
+- input de pesquisa procura em Nome, Tags e descrição
 
 
