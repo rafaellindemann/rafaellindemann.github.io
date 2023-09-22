@@ -4,6 +4,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 3px;
 }
 
 .navbar {
@@ -20,7 +29,32 @@ body {
     text-decoration: none;
 }
 
-.navbar a:hover {
-    background-color: orange;
+#divBtCategorias button:hover {
+    background-color: orangered;
     color: white;
+}
+
+.botao{
+    background-color: #000;
+    color: whitesmoke;
+    border: 1px solid #000
+    /* border: 2px dashed whitesmoke; */
+}
+.botaoClicado{
+    background-color: #000;
+    color: whitesmoke;
+    /* border: 1px solid #000 */
+    border: 2px dashed whitesmoke;
+}
+
+.artigo{
+    border: 1px solid orangered;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.tags{
+    color:orangered;
 }
