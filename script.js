@@ -39,7 +39,13 @@ function tratarCliqueCategorias(clicado){
     }
 
     // TODO: aplicar o filtro pra gerar o filtrados
+    if(filtros.length > 0){
+        filtrados = vacinas.filter( (reg) => reg.categoria == filtros[0])
+    }else{
+        filtrados = vacinas
+    }
     // TODO: chamar a escrita na tela
+    escreverRegistrosNaTela()
     // TODO: Apagar tudo que não está mais sendo usado
 
 }
@@ -116,6 +122,7 @@ function escreverRegistrosNaTela(){
     document.getElementById('mainRegistros').innerHTML = ''
     filtrados.map((vacina) => escreverRegistro(vacina))
 
+    document.getElementById('divStats').innerHTML = filtrados.length + '/' + vacinas.length
 }
 
 function aplicarFiltroCategorias(){

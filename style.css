@@ -22,11 +22,27 @@ h2{
 
 .navbar a {
     float: left;
-    display: block;
+    /* display: flex;
+    flex-direction: row; */
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#divBtCategorias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#divStats{
+    /* TODO: gambiarra nojenta, arrumar */
+    margin-left: 150px;
+    /* justify-self: flex-end;
+    border: 1px solid white; */
 }
 
 #divBtCategorias button:hover {
@@ -38,6 +54,7 @@ h2{
     box-shadow: inset 0px 0px 10px 3px rgba(255,68,0,0.5);
 
     border-radius: 5px;
+ 
 }
 
 .botao{
