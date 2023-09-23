@@ -84,6 +84,14 @@ const vacinas = [
     {nome: 'PodProgramar', categoria: 'Podcasts', descricao: 'Um dos melhores e feito somente por elas!', link: 'https://podprogramar.com.br/', tags: ['MulheresNaTecnologia']},
     {nome: 'devnaestrada', categoria: 'Podcasts', descricao: 'Galera gente boa e manja do que tá falando.', link: 'https://devnaestrada.com.br/', tags: ['PodcastDeGalera']},
     {nome: '<podTag/>', categoria: 'Podcasts', descricao: 'Muita coisa de carreira tech, principalmente no exterior. Mas muito mais que isso também. Depois do falecimento do plano free do heroku, o site saiu do ar. Vou deixar aqui o link do canal do Youtube, mas uma busca por podtag no google rapidamente leva a mais um monte de mídias.', link: 'https://www.youtube.com/@podtagpodcast5387/featured', tags: ['Carreira', 'DevNoExterior']},
+    {nome: 'FalaDev da Rocketseat', categoria: 'Podcasts', descricao: 'A Rocketseat sempre traz conteúdo aprofundado e de qualidade.', link: 'https://open.spotify.com/show/3TNsKUGlP9YbV1pgy3ACrW', tags: ['Rocketseat']},
+    {nome: 'QuebraDev', categoria: 'Podcasts', descricao: 'Um coletivo que tem como objetivo democratizar a informação para a periferia.', link: 'https://quebra.dev/', tags: ['DevDaQuebrada']},
+    {nome: 'PodQuest', categoria: 'Podcasts', descricao: 'Um baita Podcast com uma galera muito forte da indústria mundial dos games. Falava de mercado, desenvolvimento, games... Acabou, mas seu legado continua lá e o servidor do discord continua ativo.', link: 'http://www.podquest.com.br/', tags: ['Games', 'GameDev', 'Discord']},
+    {nome: 'Lambda-3 podcast', categoria: 'Podcasts', descricao: 'Podcast brabo!', link: 'https://www.lambda3.com.br/lambda3-podcast/', tags: ['TIVIT']},
+    {nome: 'cabeça de lab', categoria: 'Podcasts', descricao: 'O podcast do luizalabs. Super vale a pena conferir', link: 'https://www.cabecadelab.com.br/', tags: ['luizalabs', 'magalu']},
+    {nome: 'Newsletter do Deschamps', categoria: 'Balaio', descricao: 'Um belo compilado sobre tecnologia pra quem não tem tempo e/ou é preguiçoso mas tem consciência de que precisa se manter atualizado', link: 'https://filipedeschamps.com.br/newsletter', tags: ['Newsletter', 'Deschamps']},
+    {nome: 'LIVE: Quando me tornei um Programador Profissional (A História de 16 Programadores)', categoria: 'Balaio', descricao: 'Foi legal conhecer a história de vários dos programadores mais famosinhos da atualidade.', link: 'https://www.youtube.com/watch?v=eUwiTnK0EA0', tags: ['CDFTV', 'Alura', 'Cod3r', 'Akita', 'Loiane', 'LucasMontano', 'Balta', 'Branas', 'Attekita', 'NetoMarin']},
+    {nome: '', categoria: '', descricao: '', link: '', tags: []},
     {nome: '', categoria: '', descricao: '', link: '', tags: []},
     
     
