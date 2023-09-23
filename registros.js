@@ -91,8 +91,9 @@ const vacinas = [
     {nome: 'cabeça de lab', categoria: 'Podcasts', descricao: 'O podcast do luizalabs. Super vale a pena conferir', link: 'https://www.cabecadelab.com.br/', tags: ['luizalabs', 'magalu']},
     {nome: 'Newsletter do Deschamps', categoria: 'Balaio', descricao: 'Um belo compilado sobre tecnologia pra quem não tem tempo e/ou é preguiçoso mas tem consciência de que precisa se manter atualizado', link: 'https://filipedeschamps.com.br/newsletter', tags: ['Newsletter', 'Deschamps']},
     {nome: 'LIVE: Quando me tornei um Programador Profissional (A História de 16 Programadores)', categoria: 'Balaio', descricao: 'Foi legal conhecer a história de vários dos programadores mais famosinhos da atualidade.', link: 'https://www.youtube.com/watch?v=eUwiTnK0EA0', tags: ['CDFTV', 'Alura', 'Cod3r', 'Akita', 'Loiane', 'LucasMontano', 'Balta', 'Branas', 'Attekita', 'NetoMarin']},
-    {nome: '', categoria: '', descricao: '', link: '', tags: []},
-    {nome: '', categoria: '', descricao: '', link: '', tags: []},
+    {nome: 'UmÓtimo-artigo_sobre_AsFormasMais-comuns_para-CombinarPalavrasEm_programacao', categoria: 'Balaio', descricao: 'Artigo apresentando as conveções de nomenclaturas mais comuns e suas principais aplicações.', link: 'https://visualdicas.blogspot.com/2021/05/quais-as-formas-mais-populares-para.html?fbclid=IwAR3A5IxqS3U_wZceDqjOpFVgFGlIAJCDKCNVbtgdpfXccZZl7U0LffOt8Js', tags: ['camelCase', 'PascalCase', 'snake_case', 'kebab-case']},
+    {nome: 'perifacode/conteudo-gratuito', categoria: 'Balaio', descricao: 'Um repositório no GitHub com o mesmo inteuito desta página.', link: 'https://github.com/perifacode/conteudo-gratuito', tags: ['Cursos', 'Desafios', 'Dicas']},
+    {nome: 'Páginas/perfis/hashtags e afins interessantes aí pelas redes', categoria: 'Redes', descricao: 'São vários então juntei estes links em uma página só. Vale a pena transformar suas redes em algo um pouco mais interessante do que fotos de pratos e pessoas com pouca roupa...', link: 'https://rafaellindemann.notion.site/P-ginas-perfis-hashtags-e-afins-interessantes-a-pelas-redes-2c2324b387cf40ddafc437fe331ad6cd?pvs=4', tags: ['Instagram']},
     
     
     
