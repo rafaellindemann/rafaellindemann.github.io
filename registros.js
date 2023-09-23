@@ -49,9 +49,19 @@ const vacinas = [
     {nome: 'Rawpixel', categoria: 'Imagens', descricao: 'Mais imagens grátis', link: 'https://www.rawpixel.com/?feed=creative-feed&page=1&sort=shuffle', tags: ['Imagens', 'Galeria', 'Fotos']},
     {nome: 'Pixabay', categoria: 'Imagens', descricao: 'Mais de 1 milhão de imagens, fotos e vídeos em alta qualidade para seus projetos.', link: 'https://pixabay.com/pt/', tags: ['Imagens', 'Galeria', 'Fotos']},
     {nome: 'Libreshot', categoria: 'Imagens', descricao: 'I am Martin and you can download my photos for free.', link: 'https://libreshot.com/', tags: ['Imagens', 'Galeria', 'Fotos']},
+    {nome: 'Icon Archive', categoria: 'Imagens', descricao: 'Over 800,000 free icons / 2,517 iconpacks. Without login, without subscription', link: 'https://iconarchive.com/', tags: ['Icons']},
+    {nome: 'Favicon.cc', categoria: 'Imagens', descricao: 'Ferramenta para criar favicon', link: 'https://www.favicon.cc/', tags: ['Favicon', 'Gerador', 'Ferramenta']},
+    {nome: 'Favicon.io', categoria: 'Imagens', descricao: 'Melhor ferramenta para criar favicon', link: 'https://favicon.io/', tags: ['Favicon', 'Gerador', 'Ferramenta']},
+    {nome: 'lordicon', categoria: 'Imagens', descricao: 'Galeria de Ícones para usar em seus sites ou apps', link: 'https://lordicon.com/', tags: ['Icons']},
+    {nome: 'florinpop17: App ideas collection', categoria: 'Repositórios', descricao: 'Quer praticar em algo real mas não sabe o que fazer? O florinpop17 resolve! Nesse repositório tu vai encontrar um monte de ideias para projetos reais. Tudo super completo, com requisitos, user histories e muito mais!', link: 'https://github.com/florinpop17/app-ideas', tags: ['Ideias', 'Projetos', 'Metodologia']},
+    {nome: 'florinpop17: mais ideias curtas', categoria: 'Repositórios', descricao: 'Ele foi desafiado a completar 10 projetos em uma hora :D', link: 'https://github.com/florinpop17/10-projects-1-hour', tags: ['Ideias', 'Projetos']},
+    {nome: '3 projetos de nível iniciante que geram até $3000 por Mês', categoria: 'Repositórios', descricao: 'Mais ideias pra projetos, desta vez com promessas de $$', link: 'https://www.youtube.com/watch?v=n3tMEOw9KGY', tags: ['Ideias']},
+    {nome: '', categoria: '', descricao: '', link: '', tags: []},
+    {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
 
     // o freeForDev do github
+    // https://github.com/ripienaar/free-for-dev
 
 ]
 
