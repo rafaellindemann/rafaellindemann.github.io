@@ -73,11 +73,31 @@ const vacinas = [
     {nome: 'CODEPEN', categoria: 'Ferramentas', descricao: 'The best place to build, test, and discover front-end code. CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.', link: 'https://codepen.io/', tags: ['IDE']},
     {nome: 'beecrowd', categoria: 'Exercícios', descricao: 'Milhares de exercícios para praticar programação', link: 'https://www.beecrowd.com.br/', tags: ['Exercícios']},
     {nome: 'DevChallenge', categoria: 'Exercícios', descricao: 'Mais um site de desafios para praticar.', link: 'https://www.devchallenge.com.br/', tags: ['Exercícios']},
+    {nome: 'Dcoder Challenges', categoria: 'Exercícios', descricao: 'Uma lista imensa de exercícios para praticar algoritmos clássicos. Estão divididos entre Fácil, Médio e Difícil.', link: 'https://code.dcoder.tech/challenges', tags: ['Exercícios', 'Dcoder', 'IDE']},
+    {nome: 'HackerRank', categoria: 'Exercícios', descricao: 'O mais conhecido dos sites de desafios de programação. Muito utilizado em entrevistas e, consequentemente, para praticar para elas também.', link: 'https://www.hackerrank.com/', tags: ['Exercícios']},
+    {nome: 'OsProgramadores/desafios', categoria: 'Exercícios', descricao: 'Uma ótima lista de edsafios bem complicadinhos...', link: 'https://osprogramadores.com/desafios/', tags: ['Exercícios']},
+    {nome: 'Lista de exercícios sobre vetores do Prof. Eduardo Silvestri', categoria: 'Exercícios', descricao: 'Uma bela lista com 31 exercícios para praticar o uso de vetorers. Sugiro tentar resolver com manipulação dos vetores primeiro (lógica), depois usando os métodos de array da linguagem (programação) ', link: 'https://docplayer.com.br/8274125-Lista-de-exercicios-vetores.html', tags: ['Exercícios']},
+    {nome: 'StackOverflow', categoria: 'Fóruns', descricao: 'A mãe dos programadores. Perdeu um pouco de relevância com o nascimento do chatGPT mas ainda é muito importante pra nós, principalmente nos problemas mais complexos.', link: 'https://stackoverflow.com/questions', tags: ['FullStackOverflow']},
+    {nome: 'StackOverflow-pt', categoria: 'Fóruns', descricao: 'O feudo em português da StackOverflow', link: 'https://pt.stackoverflow.com/', tags: ['FullStackOverflow']},
+    {nome: 'GUJ', categoria: 'Fóruns', descricao: 'Versão organizada e bonitinha da StackOverflow. Quase ninguém usa mais, mas todo o conhecimento que já foi compartilhado continua lá.', link: 'https://www.guj.com.br/', tags: ['Alura']},
+    {nome: 'HipstersPontoTech', categoria: 'Podcasts', descricao: 'O  maior e mais badalado podcast de tecnologia do Brasil', link: 'https://hipsters.tech/', tags: ['Alura']},
+    {nome: 'PodProgramar', categoria: 'Podcasts', descricao: 'Um dos melhores e feito somente por elas!', link: 'https://podprogramar.com.br/', tags: ['MulheresNaTecnologia']},
+    {nome: 'devnaestrada', categoria: 'Podcasts', descricao: 'Galera gente boa e manja do que tá falando.', link: 'https://devnaestrada.com.br/', tags: ['PodcastDeGalera']},
+    {nome: '<podTag/>', categoria: 'Podcasts', descricao: 'Muita coisa de carreira tech, principalmente no exterior. Mas muito mais que isso também. Depois do falecimento do plano free do heroku, o site saiu do ar. Vou deixar aqui o link do canal do Youtube, mas uma busca por podtag no google rapidamente leva a mais um monte de mídias.', link: 'https://www.youtube.com/@podtagpodcast5387/featured', tags: ['Carreira', 'DevNoExterior']},
     {nome: '', categoria: '', descricao: '', link: '', tags: []},
-
+    
+    
+    
+    
+    // {nome: '', categoria: '', descricao: '', link: '', tags: []},
+    
 
     // o freeForDev do github
     // https://github.com/ripienaar/free-for-dev
+
+    // a kipper
+    // dev.to
+    // tabnews
 
 ]
 
