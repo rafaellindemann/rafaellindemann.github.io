@@ -30,17 +30,30 @@ h2{
 }
 
 #divBtCategorias button:hover {
-    background-color: orangered;
-    color: white;
+    /* background-color: orangered;
+    color: white; */
+
+    -webkit-box-shadow: inset 0px 0px 5px 5px rgba(255,68,0,0.5);
+    -moz-box-shadow: inset 0px 0px 5px 5px rgba(255,68,0,0.5);
+    box-shadow: inset 0px 0px 10px 3px rgba(255,68,0,0.5);
+
+    border-radius: 5px;
 }
 
 .botao{
     background-color: #000;
     color: whitesmoke;
-    border: 1px solid #000
+    border: 1px solid #000;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
     /* border: 2px dashed whitesmoke; */
 }
 .botaoClicado{
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     background-color: #000;
     color: whitesmoke;
     /* border: 1px solid #000 */
@@ -48,11 +61,17 @@ h2{
 }
 
 .artigo{
-    border: 1px solid orangered;
+    /* border: 2px solid orangered; */
     border-radius: 15px;
     margin: 20px;
     padding: 10px;
+    background-color: #101010;
+}
 
+.artigo:hover{
+    -webkit-box-shadow: 0px 0px 14px 5px rgba(255,68,0,0.5);
+    -moz-box-shadow: 0px 0px 14px 5px rgba(255,68,0,0.5);
+    box-shadow: 0px 0px 14px 5px rgba(255,68,0,0.5);
 }
 
 .tags{

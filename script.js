@@ -43,15 +43,15 @@ function escreverRegistro(reg){
     
     let artigo = document.createElement('article')
     artigo.appendChild(nome)
-    artigo.appendChild(categoria)
     artigo.appendChild(descricao)
+    artigo.appendChild(categoria)
     artigo.appendChild(link)
     artigo.appendChild(tags)
     artigo.setAttribute('class', 'artigo')
 
     main.appendChild(artigo)
-    
 }
+
 function escreverRegistrosNaTela(){
     atualizarFiltrosAplicados();
     document.getElementById('mainRegistros').innerHTML = ''
