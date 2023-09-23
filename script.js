@@ -3,17 +3,76 @@ let filtrados = vacinas // mostra os recursos que atendem os filtros aplicados
 
 let filtros = []
 
+function limparTodosFiltros(){
+    filtros = []
+    document.getElementById('btCurso Youtube').setAttribute('class','botao')
+    document.getElementById('btCanal Youtube').setAttribute('class','botao')
+    document.getElementById('btCurso').setAttribute('class','botao')
+    document.getElementById('btSites').setAttribute('class','botao')
+    document.getElementById('btCarreira').setAttribute('class','botao')
+    document.getElementById('btJogos').setAttribute('class','botao')
+    document.getElementById('btRepositórios').setAttribute('class','botao')
+    document.getElementById('btImagens').setAttribute('class','botao')
+    document.getElementById('btFerramentas').setAttribute('class','botao')
+    document.getElementById('btLivros').setAttribute('class','botao')
+    document.getElementById('btExercícios').setAttribute('class','botao')
+    document.getElementById('btFóruns').setAttribute('class','botao')
+    document.getElementById('btPodcasts').setAttribute('class','botao')
+    document.getElementById('btRedes').setAttribute('class','botao')
+    document.getElementById('btBalaio').setAttribute('class','botao')
+
+
+    //att tela?
+}
+
+function tratarCliqueCategorias(clicado){ 
+    if(filtros.length == 0){ 
+        filtros.push(clicado)
+        document.getElementById('bt' + clicado).setAttribute('class','botaoClicado')
+
+    }else if(filtros.includes(clicado)){
+        limparTodosFiltros();
+    }else if(!filtros.includes(clicado)){
+        limparTodosFiltros()
+        filtros.push(clicado)
+        document.getElementById('bt' + clicado).setAttribute('class','botaoClicado')
+    }
+
+    // TODO: aplicar o filtro pra gerar o filtrados
+    // TODO: chamar a escrita na tela
+    // TODO: Apagar tudo que não está mais sendo usado
+
+}
+
+// TODO: toggle dos demais botões
 function toggleFiltroCursosYT(){
-    if(filtros.includes('CursosYT')){
-        filtros.splice(filtros.indexOf('CursosYT'),1)
-        document.getElementById('btCursosYT').setAttribute('class','botao')
+    console.log(filtros);
+    if(filtros.includes('Curso Youtube')){
+        // filtros.splice(filtros.indexOf('Curso Youtube'),1)
+        // document.getElementById('btCursosYT').setAttribute('class','botao')
+        filtros = []
+        limparTodosFiltros()
     }else{
-        filtros.push('CursosYT')
+        limparTodosFiltros()
+        filtros.push('Curso Youtube')
         document.getElementById('btCursosYT').setAttribute('class','botaoClicado')
-        console.log('esle');
     }
     escreverRegistrosNaTela();
 }
+function toggleFiltroBalaio(){
+    if(filtros.includes('Balaio')){
+        // filtros.splice(filtros.indexOf('Balaio'),1)
+        // document.getElementById('btBalaio').setAttrbute('class','botao')
+        filtros = []
+        limparTodosFiltros()
+    }else{
+        limparTodosFiltros()
+        filtros.push('Balaio')
+        document.getElementById('btBalaio').setAttribute('class','botaoClicado')
+    }
+    escreverRegistrosNaTela();
+}
+
 function escreverRegistro(reg){
     // document.getElementById('mainRegistros').innerHTML += reg
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
@@ -59,8 +118,8 @@ function escreverRegistrosNaTela(){
 
 }
 
-function aplicarFiltroCursosYT(){
-    filtrados = filtrados.filter( (reg) => reg.categoria == 'Curso Youtube')
+function aplicarFiltroCategorias(){
+    filtrados = filtrados.filter( (reg) => reg.categoria == filtros[0])
 }
 
 function atualizarFiltrosAplicados(){
@@ -68,8 +127,9 @@ function atualizarFiltrosAplicados(){
         filtrados = vacinas
     }else{
         // limpar os filtrados antes de aplicar novamente
-        aplicarFiltroCursosYT()
+        aplicarFiltroCategorias()
     }
+    // TODO: aqui serão aplicados os filtros de pesquisa
     
 }
 
