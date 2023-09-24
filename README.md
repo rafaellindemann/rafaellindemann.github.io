@@ -4,6 +4,9 @@ Este projeto era um documento compartilhando links para auxiliar o aprendizado d
 Agora, ele está aos poucos virando uma página web, pra ficar mais organizado e acessível.
 
 Daqui pra baixo são apenas notas aleatórias para mim mesmo.
+Apenas notas usadas durante a fase de planejamento.
+
+
 ========================================================
 Uma coleção de links úteis para devs e aprendizes :D
 
