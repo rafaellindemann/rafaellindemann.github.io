@@ -1,5 +1,10 @@
 
 # vacina
+Este projeto era um documento compartilhando links para auxiliar o aprendizado dos meus alunos, principalmente para os que estão se aventurando pela primeira vez no maravilhoso mundo do desenvolvimento.
+Agora, ele está aos poucos virando uma página web, pra ficar mais organizado e acessível.
+
+Daqui pra baixo são apenas notas aleatórias para mim mesmo.
+========================================================
 Uma coleção de links úteis para devs e aprendizes :D
 
 - a Vacina em react e online (um card responsivo pra cada link, os links separados em abas)
