@@ -18,6 +18,9 @@ h2{
 .navbar {
     background-color: black;
     overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar a {
@@ -30,12 +33,16 @@ h2{
     text-decoration: none;
 }
 
+#logoHeader{
+    width: 150px;
+}
+
 #divBtCategorias{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #divStats{
@@ -54,7 +61,13 @@ h2{
     box-shadow: inset 0px 0px 10px 3px rgba(255,68,0,0.5);
 
     border-radius: 5px;
- 
+}
+
+.linkRecurso{
+    border: 1px solid #888;
+    padding: 3px;
+    border-radius: 6px;
+    /* margin: 12px; */
 }
 
 .botao{

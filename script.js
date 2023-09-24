@@ -50,34 +50,34 @@ function tratarCliqueCategorias(clicado){
 
 }
 
-// TODO: toggle dos demais botões
-function toggleFiltroCursosYT(){
-    console.log(filtros);
-    if(filtros.includes('Curso Youtube')){
-        // filtros.splice(filtros.indexOf('Curso Youtube'),1)
-        // document.getElementById('btCursosYT').setAttribute('class','botao')
-        filtros = []
-        limparTodosFiltros()
-    }else{
-        limparTodosFiltros()
-        filtros.push('Curso Youtube')
-        document.getElementById('btCursosYT').setAttribute('class','botaoClicado')
-    }
-    escreverRegistrosNaTela();
-}
-function toggleFiltroBalaio(){
-    if(filtros.includes('Balaio')){
-        // filtros.splice(filtros.indexOf('Balaio'),1)
-        // document.getElementById('btBalaio').setAttrbute('class','botao')
-        filtros = []
-        limparTodosFiltros()
-    }else{
-        limparTodosFiltros()
-        filtros.push('Balaio')
-        document.getElementById('btBalaio').setAttribute('class','botaoClicado')
-    }
-    escreverRegistrosNaTela();
-}
+// // TODO: toggle dos demais botões
+// function toggleFiltroCursosYT(){
+//     console.log(filtros);
+//     if(filtros.includes('Curso Youtube')){
+//         // filtros.splice(filtros.indexOf('Curso Youtube'),1)
+//         // document.getElementById('btCursosYT').setAttribute('class','botao')
+//         filtros = []
+//         limparTodosFiltros()
+//     }else{
+//         limparTodosFiltros()
+//         filtros.push('Curso Youtube')
+//         document.getElementById('btCursosYT').setAttribute('class','botaoClicado')
+//     }
+//     escreverRegistrosNaTela();
+// }
+// function toggleFiltroBalaio(){
+//     if(filtros.includes('Balaio')){
+//         // filtros.splice(filtros.indexOf('Balaio'),1)
+//         // document.getElementById('btBalaio').setAttrbute('class','botao')
+//         filtros = []
+//         limparTodosFiltros()
+//     }else{
+//         limparTodosFiltros()
+//         filtros.push('Balaio')
+//         document.getElementById('btBalaio').setAttribute('class','botaoClicado')
+//     }
+//     escreverRegistrosNaTela();
+// }
 
 function escreverRegistro(reg){
     // document.getElementById('mainRegistros').innerHTML += reg
@@ -100,6 +100,7 @@ function escreverRegistro(reg){
     let link = document.createElement('a')
     link.appendChild(texto)
     link.setAttribute('href', reg.link)
+    link.setAttribute('class', 'linkRecurso')
 
     texto = document.createTextNode('#: ' + reg.tags)
     let tags = document.createElement('p')
@@ -140,4 +141,4 @@ function atualizarFiltrosAplicados(){
     
 }
 
-window.onload = atualizarFiltrosAplicados()
+window.onload = escreverRegistrosNaTela()
