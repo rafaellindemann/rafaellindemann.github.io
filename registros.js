@@ -98,18 +98,9 @@ const vacinas = [
     {nome: 'dev.to', categoria: 'Fóruns', descricao: 'Muito mais uma plataforma de divulgação de artigos na área de desenvolvimento do que um fórum, mas também dá pra enxergar o dev.to como um fórum :D', link: 'https://dev.to/', tags: ['Fórum', 'Mídias', 'Artigos', 'Discussão', 'Inglês', 'Português']},
     {nome: 'Fernanda Kipper | Dev', categoria: 'Canal Youtube', descricao: 'Ativa o sininho que ela é demais! Um dos pontos fortes é ela resolvendo desafios de entrevistas técnicas, mas tá longe de ser só isso. Aproveita e espia os vídeos que ela faz para os membros que pagam 5 pila por mês...', link: '', tags: []},
     {nome: 'Repositório free-for-dev', categoria: 'Ferramentas', descricao: 'Mais ou menos 18 vidas são necessárias para só testar tudo que está listado lá: de hospedagem, ferramentas, softwares, plataformas, APIs, armazenamento... Tudo de GRÁTIS! ', link: 'https://github.com/ripienaar/free-for-dev', tags: ['Repositório', 'Ferramentas', 'Grátis', 'Free', 'MuitaCoisa']},
-    
-    
-    
+    {nome: 'Smart UI Studio', categoria: 'Repositórios', descricao: 'Um site daqueles de influencers mostrando pequenas coisas de frontend pra te inspirar e abrilhantar teu projeto.', link: 'https://www.smartinfogl.com/', tags: ['Frontend', 'Tips', 'HTML', 'CSS', 'Dicas', 'Repositório', 'Animações']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
-    
-
-    // o freeForDev do github
-    // https://github.com/ripienaar/free-for-dev
-
-
-   
 
 ]
 
