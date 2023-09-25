@@ -99,6 +99,8 @@ const vacinas = [
     {nome: 'Fernanda Kipper | Dev', categoria: 'Canal Youtube', descricao: 'Ativa o sininho que ela é demais! Um dos pontos fortes é ela resolvendo desafios de entrevistas técnicas, mas tá longe de ser só isso. Aproveita e espia os vídeos que ela faz para os membros que pagam 5 pila por mês...', link: '', tags: []},
     {nome: 'Repositório free-for-dev', categoria: 'Ferramentas', descricao: 'Mais ou menos 18 vidas são necessárias para só testar tudo que está listado lá: de hospedagem, ferramentas, softwares, plataformas, APIs, armazenamento... Tudo de GRÁTIS! ', link: 'https://github.com/ripienaar/free-for-dev', tags: ['Repositório', 'Ferramentas', 'Grátis', 'Free', 'MuitaCoisa']},
     {nome: 'Smart UI Studio', categoria: 'Repositórios', descricao: 'Um site daqueles de influencers mostrando pequenas coisas de frontend pra te inspirar e abrilhantar teu projeto.', link: 'https://www.smartinfogl.com/', tags: ['Frontend', 'Tips', 'HTML', 'CSS', 'Dicas', 'Repositório', 'Animações']},
+    {nome: 'shields.io', categoria: 'Repositórios', descricao: 'Aqueles badgezinhos bunitinhos que a galera gosta de colocar no perfil do GitHub.', link: 'https://shields.io/', tags: ['Badges', 'GitHub', 'Repositório']},
+    {nome: 'Repositório: Badges4-README.md-Profile', categoria: 'Repositórios', descricao: 'Uma seleção daqueles badgezinhos bunitinhos que a galera gosta de colocar no perfil do GitHub.', link: 'https://github.com/alexandresanlim/Badges4-README.md-Profile', tags: ['Badges', 'GitHub', 'Repositório']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
