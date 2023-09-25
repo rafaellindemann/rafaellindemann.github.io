@@ -96,6 +96,8 @@ const vacinas = [
     {nome: 'Páginas/perfis/hashtags e afins interessantes aí pelas redes', categoria: 'Redes', descricao: 'São vários então juntei estes links em uma página só. Vale a pena transformar suas redes em algo um pouco mais interessante do que fotos de pratos e pessoas com pouca roupa...', link: 'https://rafaellindemann.notion.site/P-ginas-perfis-hashtags-e-afins-interessantes-a-pelas-redes-2c2324b387cf40ddafc437fe331ad6cd?pvs=4', tags: ['Instagram']},
     {nome: 'tabnews', categoria: 'Fóruns', descricao: 'Meio fórum de discussão, meio plataforma de artigos... ', link: 'https://www.tabnews.com.br/', tags: ['Fórum','Mídias', 'Deschamps']},
     {nome: 'dev.to', categoria: 'Fóruns', descricao: 'Muito mais uma plataforma de divulgação de artigos na área de desenvolvimento do que um fórum, mas também dá pra enxergar o dev.to como um fórum :D', link: 'https://dev.to/', tags: ['Fórum', 'Mídias', 'Artigos', 'Discussão', 'Inglês', 'Português']},
+    {nome: 'Fernanda Kipper | Dev', categoria: 'Canal Youtube', descricao: 'Ativa o sininho que ela é demais! Um dos pontos fortes é ela resolvendo desafios de entrevistas técnicas, mas tá longe de ser só isso. Aproveita e espia os vídeos que ela faz para os membros que pagam 5 pila por mês...', link: '', tags: []},
+    {nome: 'Repositório free-for-dev', categoria: 'Ferramentas', descricao: 'Mais ou menos 18 vidas são necessárias para só testar tudo que está listado lá: de hospedagem, ferramentas, softwares, plataformas, APIs, armazenamento... Tudo de GRÁTIS! ', link: 'https://github.com/ripienaar/free-for-dev', tags: ['Repositório', 'Ferramentas', 'Grátis', 'Free', 'MuitaCoisa']},
     
     
     
@@ -106,8 +108,7 @@ const vacinas = [
     // o freeForDev do github
     // https://github.com/ripienaar/free-for-dev
 
-    // a kipper
-    // dev.to
+
    
 
 ]
