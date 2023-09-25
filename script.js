@@ -102,7 +102,7 @@ function escreverRegistro(reg){
     link.setAttribute('href', reg.link)
     link.setAttribute('class', 'linkRecurso')
 
-    texto = document.createTextNode('#: ' + reg.tags)
+    texto = document.createTextNode('#: ' + reg.tags.join(', '))
     let tags = document.createElement('p')
     tags.appendChild(texto)
     tags.setAttribute('class', 'tags')
