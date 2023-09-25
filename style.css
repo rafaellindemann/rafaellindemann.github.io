@@ -67,10 +67,11 @@ h2{
 }
 
 .linkRecurso{
-    border: 1px solid #888;
-    padding: 3px;
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 6px;
     border-radius: 6px;
-    margin: 12px;
+    /* margin: 12px; */
 }
 
 .botao{
@@ -114,4 +115,11 @@ h2{
 
 .tags{
     color:orangered;
+}
+
+.tagLink{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

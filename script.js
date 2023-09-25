@@ -106,13 +106,19 @@ function escreverRegistro(reg){
     let tags = document.createElement('p')
     tags.appendChild(texto)
     tags.setAttribute('class', 'tags')
+
+    let baixo = document.createElement('div')
+    baixo.appendChild(tags)
+    baixo.appendChild(link)
+    baixo.setAttribute('class', 'tagLink')
     
     let artigo = document.createElement('article')
     artigo.appendChild(nome)
     artigo.appendChild(descricao)
     artigo.appendChild(categoria)
-    artigo.appendChild(link)
-    artigo.appendChild(tags)
+    // artigo.appendChild(link)
+    // artigo.appendChild(tags)
+    artigo.appendChild(baixo)
     artigo.setAttribute('class', 'artigo')
 
     main.appendChild(artigo)
