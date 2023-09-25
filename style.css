@@ -1,3 +1,8 @@
+/* *{
+    border: 1px solid green;
+    margin: 1px;
+} */
+
 
 /* laranja do logo: #DF4E39 */
 
@@ -26,16 +31,6 @@ h2{
     flex-direction: row;
 }
 
-.navbar a {
-    float: left;
-    /* display: flex;
-    flex-direction: row; */
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 #logoHeader{
     width: 150px;
     height: 66px;
@@ -52,14 +47,11 @@ h2{
 #divStats{
     /* TODO: gambiarra nojenta, arrumar */
     margin-left: 150px;
-    /* justify-self: flex-end;
-    border: 1px solid white; */
+    /* justify-self: flex-end; */
+    /* border: 1px solid white; */
 }
 
 #divBtCategorias button:hover {
-    /* background-color: #DF4E39;
-    color: white; */
-
     -webkit-box-shadow: inset 0px 0px 5px 5px #DF4E39;
     -moz-box-shadow: inset 0px 0px 5px 5px #DF4E39;
     box-shadow: inset 0px 0px 10px 3px #DF4E39;
@@ -68,26 +60,28 @@ h2{
 }
 
 .linkRecurso{
-    /* border: 1px solid #DF4E39; */
     border: 3px solid #000;
     background-color: #DF4E39;
     color: #000;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: 900;
     padding: 6px;
-    border-radius: 6px;
-    /* margin: 12px; */
+    border-radius: 10px;
+}
+.linkRecurso:hover{
+    border: 3px solid #DF4E39;
+    background-color: #000;
+    color: #DF4E39;
+
 }
 
-.botao{
+.botao, #divStats{
     background-color: #000;
     color: whitesmoke;
     border: 1px solid #000;
     height: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    
-    /* border: 2px dashed whitesmoke; */
 }
 .botaoClicado{
     height: 30px;
@@ -95,7 +89,6 @@ h2{
     font-size: 20px;
     background-color: #000;
     color: whitesmoke;
-    /* border: 1px solid #000 */
     border: 2px dashed whitesmoke;
 }
 
