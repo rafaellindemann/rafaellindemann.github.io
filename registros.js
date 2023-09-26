@@ -34,6 +34,8 @@ const vacinas = [
     {nome: 'MDN: Guia JavaScript', categoria: 'Curso', descricao: 'O Guia de JavaScript preparado pela galera da Mozilla. Aprendizado garantido.', link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide', tags: ['MDN', 'Mozilla', 'JS']},
     {nome: 'MDN: Aprendendo desenvolvimento web', categoria: 'Curso', descricao: 'O cursão de frontend da Mozilla.', link: 'https://developer.mozilla.org/pt-BR/docs/Learn', tags: ['MDN', 'Mozilla', 'JS', 'HTML', 'CSS']},
     {nome: 'CSS Reference: A free visual guide to CSS', categoria: 'Site', descricao: 'Baita referência para CSS. Simples, bonita, visual...', link: 'https://cssreference.io/', tags: ['CSS']},
+    {nome: 'Minicurso grátis do Sujeito Programador', categoria: 'Curso', descricao: 'Um minicurso oferecido pelo SujeitoProgramador com uma aula HTML, uma de CSS e uma de JS.', link: 'https://sujeitoprogramador.com/minicurso/?ref=D72629827B&hsrc=bWluaWN1cnNvcHJv', tags: ['Curso', 'HTML', 'CSS', 'JS', 'SujeitoProgramador']},
+    {nome: 'Curso Git e GitHub - Curso 100% Gratuito - Sujeito Programador', categoria: 'Curso', descricao: 'Curso gratuito sobre Git e GitHub do Sujeito Programador.', link: 'https://sujeitoprogramador.com/curso-git/?ref=B12785145N', tags: ['Git', 'GitHub', 'SujeitoProgramador']},
     {nome: 'Introdução a HTML/CSS na Khan Academy', categoria: 'Curso', descricao: 'Ótimo curso de HTML e CSS', link: 'https://pt.khanacademy.org/computing/computer-programming/html-css#intro-to-html', tags: ['Frontend', 'HTML', 'CSS']},
     {nome: 'Um guia para iniciantes na área de web - Tableless', categoria: 'Curso', descricao: 'Curso massa e muito completo contemplando o básico de wec, HTML, CSS e JS. Tudo feito com carinho pela comunidade brasileira.', link: 'http://tableless.github.io/iniciantes/', tags: ['Web', 'HTML', 'CSS', 'JS', 'Frontend']},
     {nome: 'Cod3r', categoria: 'Curso', descricao: 'Um monte de cursos massa, com vários importantes gratuitos pra gente aproveitar sem moderação.', link: 'https://www.cod3r.com.br/collections?category=cursos-gratuitos', tags: ['Curso', 'Gratis']},
@@ -104,6 +106,8 @@ const vacinas = [
     {nome: 'Wave - teste de acessibilidade', categoria: 'Ferramentas', descricao: 'Ajuda a encontrar problemas de acessibilidade em seu site.', link: 'https://wave.webaim.org/', tags: ['Acessibilidade', 'Teste']},
     {nome: 'Conversor de cores - HEX <-> RGB', categoria: 'Ferramentas', descricao: 'Converta as suas cores de rgb(223, 78, 57) para #DF4E39 rapidinho e sem tretas', link: 'https://www.rapidtables.com/convert/color/hex-to-rgb.html', tags: ['Cores', 'Design', 'Conversor', 'RGB', 'Hex']},
     {nome: 'Guia Extenso de Programação', categoria: 'Repositórios', descricao: 'Quer aprender alguma coisa de tecnologia? Aqui tem praticamente tudo!', link: 'https://github.com/arthurspk/guiadevbrasil', tags: ['Repositório', 'Recursos', 'Aprender']},
+    {nome: 'Brasil Code: Recursos gratuitos para criar sites', categoria: 'Ferramentas', descricao: 'Ótimo artigo em um ótimo blog. Tem muito mais coisa legal lá, vale a pena conferir!', link: 'https://www.brasilcode.com.br/melhores-recursos-gratuitos-para-criar-sites/', tags: ['Ferramentas', 'Recursos', 'Aprender', 'Grátis', 'Frontend']},
+    {nome: 'Blog do Sujeito Programador', categoria: 'Sites', descricao: 'Muita coisa boa no blog do Sujeito, principalmente sobre carreira', link: 'https://sujeitoprogramador.com/', tags: ['Blog', 'SujeitoProgramador', 'Carreira']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
