@@ -48,10 +48,16 @@ h2{
     /* TODO: gambiarra nojenta, arrumar */
     margin-left: 150px;
     /* justify-self: flex-end; */
-    /* border: 1px solid white; */
+    background-color: #000;
+    color: whitesmoke;
+    border: 1px solid #000;
+    /* height: 30px; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
-#divBtCategorias button:hover {
+.botao:hover {
     -webkit-box-shadow: inset 0px 0px 5px 5px #DF4E39;
     -moz-box-shadow: inset 0px 0px 5px 5px #DF4E39;
     box-shadow: inset 0px 0px 10px 3px #DF4E39;
@@ -75,7 +81,7 @@ h2{
 
 }
 
-.botao, #divStats{
+.botao{
     background-color: #000;
     color: whitesmoke;
     border: 1px solid #000;
@@ -121,4 +127,12 @@ h2{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+#headerContribuicoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
 }
