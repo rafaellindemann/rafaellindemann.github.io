@@ -103,7 +103,7 @@ const vacinas = [
     {nome: 'Repositório: Badges4-README.md-Profile', categoria: 'Repositórios', descricao: 'Uma seleção daqueles badgezinhos bunitinhos que a galera gosta de colocar no perfil do GitHub.', link: 'https://github.com/alexandresanlim/Badges4-README.md-Profile', tags: ['Badges', 'GitHub', 'Repositório']},
     {nome: 'Wave - teste de acessibilidade', categoria: 'Ferramentas', descricao: 'Ajuda a encontrar problemas de acessibilidade em seu site.', link: 'https://wave.webaim.org/', tags: ['Acessibilidade', 'Teste']},
     {nome: 'Conversor de cores - HEX <-> RGB', categoria: 'Ferramentas', descricao: 'Converta as suas cores de rgb(223, 78, 57) para #DF4E39 rapidinho e sem tretas', link: 'https://www.rapidtables.com/convert/color/hex-to-rgb.html', tags: ['Cores', 'Design', 'Conversor', 'RGB', 'Hex']},
-    {nome: 'Guia Extenso de Programação', categoria: 'Repositório', descricao: 'Quer aprender alguma coisa de tecnologia? Aqui tem praticamente tudo!', link: 'https://github.com/arthurspk/guiadevbrasil', tags: ['Repositório', 'Recursos', 'Aprender']},
+    {nome: 'Guia Extenso de Programação', categoria: 'Repositórios', descricao: 'Quer aprender alguma coisa de tecnologia? Aqui tem praticamente tudo!', link: 'https://github.com/arthurspk/guiadevbrasil', tags: ['Repositório', 'Recursos', 'Aprender']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
