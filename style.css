@@ -135,4 +135,5 @@ h2{
     justify-content: flex-end;
     align-items: center;
     gap: 10px;
+    margin-left: auto;
 }
