@@ -25,8 +25,8 @@ Dev biscoitero precisa de estrelinha no repositório. Joga uma aí vai...
 
 ## Futuras empreitadas/issues 
 Quer meter um pull request de respeito? Eis o que ainda tem pendente do escopo original:
-- input de pesquisa procura em Nome, Tags e descrição
-- Acessibilidade
-- Responsividade
-- backend para poder cadastrar novos recursos via web
+- input de pesquisa para procurar uma string nos campos Nome, Tags e Descrição;
+- Acessibilidade;
+- Responsividade;
+- Backend para poder cadastrar novos recursos via web, não mais que um minilito.
 
