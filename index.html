@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="modal.css">
-    <!-- <title>-=Vacina=-</title> -->
     <title>.::progHub::.</title>
 
 </head>
@@ -33,21 +32,21 @@
                 <button class="botao" onclick="tratarCliqueCategorias('Balaio')" id="btBalaio">Balaio</button>
                 <div id="headerContribuicoes">
                     <div id="divStats"></div>
-                    <!-- <button class="botao" onclick="mostrarModal()" id="">➕</button> -->
-                    <button class="botao" onclick="mostrarModal()" id=""><span class="material-icons" id="teste">add_circle_outline</span></button>
+                    <button class="botao" onclick="mostrarModal()" id=""><span class="material-icons" id="icone">add_circle_outline</span></button>
+                    <button class="botao" onclick="modSobre.showModal()" id=""><span class="material-icons" id="icone">quiz</span></button>
                 </div>
             </div>
         </div>
     </div>
     <main id="mainRegistros"></main>
     <dialog id="modContribuicao">
-        <div id="divModContribuicao">
+        <div id="divModContribuicao" class="modalContainer">
             <button class="botao" onclick="fecharModal()" id="btFecharModal"><span class="material-icons">highlight_off</span></button>
             <h2>Gostaria de contribuir? Veja como fazer...</h2>
             <ul>
                 <li>
                     <h3>Com conteúdo</h3>
-                    <p>Se você conhece algum recurso legal para aprendizes ou desenvolvedores e gostaria de compartilhar, você pode abrir um pull request no repositório <a href="https://github.com/rafaellindemann/rafaellindemann.github.io" target="_blank">aqui</a> com o nome do recurso, uma breve descrição e seu link.</p>
+                    <p>Se você conhece algum recurso legal para aprendizes ou desenvolvedores e gostaria de compartilhar, você pode abrir um pull request no repositório <a href="https://github.com/rafaellindemann/rafaellindemann.github.io" target="_blank" class="linkModal">aqui</a> com o nome do recurso, uma breve descrição e seu link.</p>
                     <p>Se abrir um pull request ainda lhe parece coisa de maluco, você pode enviar sua contribuição pelo e-mail rafaelld@gmail.com</p>
 
                 </li>
@@ -58,9 +57,17 @@
                 <li>
                     <h3>Dando uma estrelinha no GitHub</h3>
                     <p>Dev biscoitero adora estrelinha no GitHub :P </p>
-                    <p>Se quiser massagear o ego do dev e contribuir com a relevância do projeto, <a href="https://github.com/rafaellindemann/rafaellindemann.github.io" target="_blank">clica aqui</a> pra acessar o repositório e aperta o botão de estrelinha no canto superior direito!</p>
+                    <p>Se quiser massagear o ego do dev e contribuir com a relevância do projeto, <a href="https://github.com/rafaellindemann/rafaellindemann.github.io" target="_blank"  class="linkModal">clica aqui</a> pra acessar o repositório e aperta o botão de estrelinha no canto superior direito!</p>
                 </li>
             </ul>
+        </div>
+    </dialog>
+    <dialog id="modSobre">
+        <div id="divModSobre" class="modalContainer">
+            <button class="botao" onclick="modSobre.close()" id="btFecharModal"><span class="material-icons">highlight_off</span></button>
+            <h2>progHub, antes humildemente chamado de vacina anti medianidade</h2>
+            <p>Este projeto era um documento compartilhando links para auxiliar o aprendizado dos meus alunos, principalmente para os que estão se aventurando pela primeira vez no maravilhoso mundo do desenvolvimento mas não somente estes. Agora, ele está aos poucos virando uma página web pra ficar mais organizado e acessível.</p>
+
         </div>
     </dialog>
 

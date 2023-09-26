@@ -23,10 +23,10 @@ Além do propósito de divulgar coisas legais e ajudar a galera, este projeto ta
 ### Dando uma estrelinha
 Dev biscoitero precisa de estrelinha no repositório. Joga uma aí vai...
 
-## Futuras empreitadas: 
-- portar para ReactJS 
-- backend para poder cadastrar novos recursos via usuário
+## Futuras empreitadas/issues 
+Quer meter um pull request de respeito? Eis o que ainda tem pendente do escopo original:
 - input de pesquisa procura em Nome, Tags e descrição
-- Contribuições de conteúdo e código apresentadas na página;
-
+- Acessibilidade
+- Responsividade
+- backend para poder cadastrar novos recursos via web
 

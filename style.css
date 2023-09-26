@@ -45,16 +45,11 @@ h2{
 }
 
 #divStats{
-    /* TODO: gambiarra nojenta, arrumar */
-    margin-left: 150px;
-    /* justify-self: flex-end; */
     background-color: #000;
     color: whitesmoke;
     border: 1px solid #000;
-    /* height: 30px; */
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    margin-top: 5px;
 }
 
 .botao:hover {
@@ -138,6 +133,6 @@ h2{
     margin-left: auto;
 }
 
-#teste{
+#icone{
     color: #DF4E39;
 }
