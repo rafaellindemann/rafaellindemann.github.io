@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="modal.css">
     <!-- <title>-=Vacina=-</title> -->
@@ -32,8 +33,8 @@
                 <button class="botao" onclick="tratarCliqueCategorias('Balaio')" id="btBalaio">Balaio</button>
                 <div id="headerContribuicoes">
                     <div id="divStats"></div>
-                    <button class="botao" onclick="mostrarModal()" id="">➕</button>
-                    <!-- <button class="botao" onclick="" id="">⭐</button> -->
+                    <!-- <button class="botao" onclick="mostrarModal()" id="">➕</button> -->
+                    <button class="botao" onclick="mostrarModal()" id=""><span class="material-icons" id="teste">add_circle_outline</span></button>
                 </div>
             </div>
         </div>
@@ -41,7 +42,7 @@
     <main id="mainRegistros"></main>
     <dialog id="modContribuicao">
         <div id="divModContribuicao">
-            <button class="botao" onclick="fecharModal()" id="btFecharModal">X</button>
+            <button class="botao" onclick="fecharModal()" id="btFecharModal"><span class="material-icons">highlight_off</span></button>
             <h2>Gostaria de contribuir? Veja como fazer...</h2>
             <ul>
                 <li>
