@@ -148,4 +148,12 @@ function atualizarFiltrosAplicados(){
     
 }
 
+function mostrarModal(){
+    document.getElementById('modContribuicao').showModal();
+}
+
+function fecharModal(){
+    document.getElementById('modContribuicao').close();
+}
+
 window.onload = escreverRegistrosNaTela()

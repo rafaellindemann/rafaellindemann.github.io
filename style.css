@@ -84,7 +84,7 @@ h2{
 .botao{
     background-color: #000;
     color: whitesmoke;
-    border: 1px solid #000;
+    border: 0px solid #000;
     height: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;

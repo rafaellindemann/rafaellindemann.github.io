@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
     <!-- <title>-=Vacina=-</title> -->
     <title>.::progHub::.</title>
 
@@ -31,14 +32,36 @@
                 <button class="botao" onclick="tratarCliqueCategorias('Balaio')" id="btBalaio">Balaio</button>
                 <div id="headerContribuicoes">
                     <div id="divStats"></div>
-                    <button class="botao" onclick="" id="">➕</button>
+                    <button class="botao" onclick="mostrarModal()" id="">➕</button>
                     <!-- <button class="botao" onclick="" id="">⭐</button> -->
                 </div>
             </div>
         </div>
     </div>
     <main id="mainRegistros"></main>
-    <dialog></dialog>
+    <dialog id="modContribuicao">
+        <div id="divModContribuicao">
+            <button class="botao" onclick="fecharModal()" id="btFecharModal">X</button>
+            <h2>Gostaria de contribuir? Veja como fazer...</h2>
+            <ul>
+                <li>
+                    <h3>Com conteúdo</h3>
+                    <p>Se você conhece algum recurso legal para aprendizes ou desenvolvedores e gostaria de compartilhar, você pode abrir um pull request no repositório <a href="https://github.com/rafaellindemann/rafaellindemann.github.io" target="_blank">aqui</a> com o nome do recurso, uma breve descrição e seu link.</p>
+                    <p>Se abrir um pull request ainda lhe parece coisa de maluco, você pode enviar sua contribuição pelo e-mail rafaelld@gmail.com</p>
+
+                </li>
+                <li>
+                    <h3>Participando do desenvolvimento</h3>
+                    <p>Além do propósito de divulgar coisas legais e ajudar a galera, este projeto também serve de laboratório. Se quiser contribuir implementando novas funcionalidades ou melhorando as gambiarras existentes, seja muito bem vindo com seu pull request!</p>
+                </li>
+                <li>
+                    <h3>Dando uma estrelinha no GitHub</h3>
+                    <p>Dev biscoitero adora estrelinha no GitHub :P </p>
+                    <p>Se quiser massagear o ego do dev e contribuir com a relevância do projeto, <a href="https://github.com/rafaellindemann/rafaellindemann.github.io" target="_blank">clica aqui</a> pra acessar o repositório e aperta o botão de estrelinha no canto superior direito!</p>
+                </li>
+            </ul>
+        </div>
+    </dialog>
 
     <script src="registros.js"></script>
     <script src="script.js"></script>
