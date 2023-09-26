@@ -101,6 +101,8 @@ const vacinas = [
     {nome: 'Smart UI Studio', categoria: 'Repositórios', descricao: 'Um site daqueles de influencers mostrando pequenas coisas de frontend pra te inspirar e abrilhantar teu projeto.', link: 'https://www.smartinfogl.com/', tags: ['Frontend', 'Tips', 'HTML', 'CSS', 'Dicas', 'Repositório', 'Animações']},
     {nome: 'shields.io', categoria: 'Repositórios', descricao: 'Aqueles badgezinhos bunitinhos que a galera gosta de colocar no perfil do GitHub.', link: 'https://shields.io/', tags: ['Badges', 'GitHub', 'Repositório']},
     {nome: 'Repositório: Badges4-README.md-Profile', categoria: 'Repositórios', descricao: 'Uma seleção daqueles badgezinhos bunitinhos que a galera gosta de colocar no perfil do GitHub.', link: 'https://github.com/alexandresanlim/Badges4-README.md-Profile', tags: ['Badges', 'GitHub', 'Repositório']},
+    {nome: 'Wave - teste de acessibilidade', categoria: 'Ferramentas', descricao: 'Ajuda a encontrar problemas de acessibilidade em seu site.', link: 'https://wave.webaim.org/', tags: ['Acessibilidade', 'Teste']},
+    {nome: 'Conversor de cores - HEX <-> RGB', categoria: 'Ferramentas', descricao: 'Converta as suas cores de rgb(223, 78, 57) para #DF4E39 rapidinho e sem tretas', link: 'https://www.rapidtables.com/convert/color/hex-to-rgb.html', tags: ['Cores', 'Design', 'Conversor', 'RGB', 'Hex']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
