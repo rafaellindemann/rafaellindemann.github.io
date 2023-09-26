@@ -32,3 +32,9 @@
 .linkModal{
     color: #DF4E39;
 }
+
+dialog::backdrop{
+    /* background-color: rgba(126, 70, 112, 0.6); */
+    /* background-color: rgba(223, 78, 57, 0.6); */
+    background-color: rgba(30, 22, 22, 0.6);
+}
