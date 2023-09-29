@@ -110,6 +110,7 @@ const vacinas = [
     {nome: 'Blog do Sujeito Programador', categoria: 'Sites', descricao: 'Muita coisa boa no blog do Sujeito, principalmente sobre carreira', link: 'https://sujeitoprogramador.com/', tags: ['Blog', 'SujeitoProgramador', 'Carreira']},
     {nome: 'Discord da Comunidade He4rt Developers', categoria: 'Redes', descricao: 'Se tu for obrigado a escolher uma única comunidade pra participar, fecha o olho e vai nessa. Confia...', link: 'https://discord.gg/he4rt', tags: ['RedesSociais', 'Comunidade', 'Discord']},
     {nome: 'javascript.info', categoria: 'Site', descricao: 'Um tutorial/guia bem interessante, completo e dinâmico para o JavaScript', link: 'https://javascript.info/', tags: ['JS', 'Documentação', 'Tutorial']},
+    {nome: 'Render: Cloud Application Hosting for Developers', categoria: 'Ferramentas', descricao: 'Host de back end com delicioso free tier', link: 'https://render.com/', tags: ['Host', 'Provedor', 'Backend']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
