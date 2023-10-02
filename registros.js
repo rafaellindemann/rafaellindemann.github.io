@@ -111,6 +111,8 @@ const vacinas = [
     {nome: 'Discord da Comunidade He4rt Developers', categoria: 'Redes', descricao: 'Se tu for obrigado a escolher uma única comunidade pra participar, fecha o olho e vai nessa. Confia...', link: 'https://discord.gg/he4rt', tags: ['RedesSociais', 'Comunidade', 'Discord']},
     {nome: 'javascript.info', categoria: 'Site', descricao: 'Um tutorial/guia bem interessante, completo e dinâmico para o JavaScript', link: 'https://javascript.info/', tags: ['JS', 'Documentação', 'Tutorial']},
     {nome: 'Render: Cloud Application Hosting for Developers', categoria: 'Ferramentas', descricao: 'Host de back end com delicioso free tier', link: 'https://render.com/', tags: ['Host', 'Provedor', 'Backend']},
+    {nome: 'Microsoft Learn', categoria: 'Curso', descricao: 'Central de cursos gratuitos da Microsoft. Muita coisa sobre (principalmente, mas não só) C#, Azure, IA, BI, GitHub...', link: 'https://learn.microsoft.com/pt-br/training/?fbclid=IwAR0eu1oD2pFDhq5f0MIZ2MjXFyUdc2W9vMJsQTBogQt3p0bAozoDtJomFLk', tags: ['C#', 'Azure', 'IA', 'BI', 'GitHub', 'Microsoft']},
+    {nome: 'eu CAPACITO', categoria: 'Curso', descricao: 'Seleção de cursos gratuitos de tecnologia oferecidos por aí.', link: 'https://www.eucapacito.com.br/pesquisa-cursos', tags: ['euCAPACITO', 'Cursos', 'IBM', 'Google', 'FIAP', 'Microsoft', 'Cisco', 'Oracle']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
