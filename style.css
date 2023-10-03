@@ -52,7 +52,7 @@ h2{
     font-size: 20px;
 }
 
-.botao:hover {
+.botao:hover, #botaoHome:hover {
     -webkit-box-shadow: inset 0px 0px 5px 5px #DF4E39;
     -moz-box-shadow: inset 0px 0px 5px 5px #DF4E39;
     box-shadow: inset 0px 0px 10px 3px #DF4E39;
@@ -84,13 +84,22 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+#botaoHome{
+    background-color: #000;
+    color: whitesmoke;
+    border: 0px solid #000;
+    /* height: 30px; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
 .botaoClicado{
     height: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     background-color: #000;
     color: whitesmoke;
-    border: 2px dashed whitesmoke;
+    /* border: 2px dashed whitesmoke; */
+    border: 2px dashed #DF4E39;
 }
 
 .artigo{

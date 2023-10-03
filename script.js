@@ -38,46 +38,13 @@ function tratarCliqueCategorias(clicado){
         document.getElementById('bt' + clicado).setAttribute('class','botaoClicado')
     }
 
-    // TODO: aplicar o filtro pra gerar o filtrados
     if(filtros.length > 0){
         filtrados = vacinas.filter( (reg) => reg.categoria == filtros[0])
     }else{
         filtrados = vacinas
     }
-    // TODO: chamar a escrita na tela
     escreverRegistrosNaTela()
-    // TODO: Apagar tudo que não está mais sendo usado
-
 }
-
-// // TODO: toggle dos demais botões
-// function toggleFiltroCursosYT(){
-//     console.log(filtros);
-//     if(filtros.includes('Curso Youtube')){
-//         // filtros.splice(filtros.indexOf('Curso Youtube'),1)
-//         // document.getElementById('btCursosYT').setAttribute('class','botao')
-//         filtros = []
-//         limparTodosFiltros()
-//     }else{
-//         limparTodosFiltros()
-//         filtros.push('Curso Youtube')
-//         document.getElementById('btCursosYT').setAttribute('class','botaoClicado')
-//     }
-//     escreverRegistrosNaTela();
-// }
-// function toggleFiltroBalaio(){
-//     if(filtros.includes('Balaio')){
-//         // filtros.splice(filtros.indexOf('Balaio'),1)
-//         // document.getElementById('btBalaio').setAttrbute('class','botao')
-//         filtros = []
-//         limparTodosFiltros()
-//     }else{
-//         limparTodosFiltros()
-//         filtros.push('Balaio')
-//         document.getElementById('btBalaio').setAttribute('class','botaoClicado')
-//     }
-//     escreverRegistrosNaTela();
-// }
 
 function escreverRegistro(reg){
     // document.getElementById('mainRegistros').innerHTML += reg
@@ -117,8 +84,6 @@ function escreverRegistro(reg){
     artigo.appendChild(nome)
     artigo.appendChild(descricao)
     artigo.appendChild(categoria)
-    // artigo.appendChild(link)
-    // artigo.appendChild(tags)
     artigo.appendChild(baixo)
     artigo.setAttribute('class', 'artigo')
 
@@ -141,11 +106,8 @@ function atualizarFiltrosAplicados(){
     if(filtros.length == 0){
         filtrados = vacinas
     }else{
-        // limpar os filtrados antes de aplicar novamente
         aplicarFiltroCategorias()
     }
-    // TODO: aqui serão aplicados os filtros de pesquisa
-    
 }
 
 function mostrarModal(){
@@ -154,6 +116,11 @@ function mostrarModal(){
 
 function fecharModal(){
     document.getElementById('modContribuicao').close();
+}
+
+function carregarHome(){
+    limparTodosFiltros();
+    escreverRegistrosNaTela();
 }
 
 window.onload = escreverRegistrosNaTela()
