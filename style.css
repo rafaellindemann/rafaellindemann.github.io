@@ -1,8 +1,8 @@
 /* *{
     border: 1px solid green;
     margin: 1px;
-} */
-
+}
+ */
 
 /* laranja do logo: #DF4E39 */
 
@@ -89,8 +89,12 @@ h2{
     color: whitesmoke;
     border: 0px solid #000;
     /* height: 30px; */
+    padding: 3px;
+    /* height: 100%; */
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    display: flex;
+
 }
 .botaoClicado{
     height: 30px;
