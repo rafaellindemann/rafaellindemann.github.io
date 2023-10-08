@@ -115,6 +115,7 @@ const vacinas = [
     {nome: 'eu CAPACITO', categoria: 'Curso', descricao: 'Seleção de cursos gratuitos de tecnologia oferecidos por aí.', link: 'https://www.eucapacito.com.br/pesquisa-cursos', tags: ['euCAPACITO', 'Cursos', 'IBM', 'Google', 'FIAP', 'Microsoft', 'Cisco', 'Oracle']},
     {nome: 'FontAwesome', categoria: 'Imagens', descricao: 'Ícones para usar no front', link: 'https://fontawesome.com/icons', tags: ['Icons', 'Ícones']},
     {nome: 'storyset', categoria: 'Repositórios', descricao: 'Um repositório de imagens muito legal. Lá dá pra escolher imagens com um mesmo estilo pra enfeitar teu projeto. Dá pra customizar um monte de coisas nelas também.', link: 'https://storyset.com/', tags: ['Imagens','Repositório', 'SVG', 'PNG',]},
+    {nome: 'Iconbuddy', categoria: 'Repositórios', descricao: 'Meio repositório de Icons, meio ferramenta de busca e edição. Super vale a pena conferir... ', link: 'https://iconbuddy.app/', tags: ['Icons', 'Repositório', 'Icon', 'Imagens']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
