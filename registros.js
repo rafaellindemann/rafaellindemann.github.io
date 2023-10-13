@@ -117,7 +117,7 @@ const vacinas = [
     {nome: 'storyset', categoria: 'Repositórios', descricao: 'Um repositório de imagens muito legal. Lá dá pra escolher imagens com um mesmo estilo pra enfeitar teu projeto. Dá pra customizar um monte de coisas nelas também.', link: 'https://storyset.com/', tags: ['Imagens','Repositório', 'SVG', 'PNG',]},
     {nome: 'Iconbuddy', categoria: 'Repositórios', descricao: 'Meio repositório de Icons, meio ferramenta de busca e edição. Super vale a pena conferir... ', link: 'https://iconbuddy.app/', tags: ['Icons', 'Repositório', 'Icon', 'Imagens']},
     {nome: 'Prompt Engineering Guide', categoria: 'Curso', descricao: 'Ótimo curso de propting de IA para desenvolvedores. Em inglês, mas tu pode traduzir com IA :P.', link: 'https://learnprompting.org/docs/intro', tags: ['IA', 'Prompt', 'InteligenciaArtificial']},
-    {nome: 'Neumorphism.io', categoria: 'Ferramentas', descricao: 'Gerador de CSSs maneiros e supimpas!', link: 'https://neumorphism.io/#e0e0e0', tags: ['Frontend','CSS', 'Ferramenta', 'Gerador']},
+    {nome: 'Neumorphism.io', categoria: 'Repositórios', descricao: 'Gerador de CSSs maneiros e supimpas!', link: 'https://neumorphism.io/#e0e0e0', tags: ['Frontend','CSS', 'Ferramentas','Repositórios', 'Gerador']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
