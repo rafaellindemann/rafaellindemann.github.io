@@ -120,6 +120,7 @@ const vacinas = [
     {nome: 'Neumorphism.io', categoria: 'Repositórios', descricao: 'Gerador de CSSs maneiros e supimpas!', link: 'https://neumorphism.io/#e0e0e0', tags: ['Frontend','CSS', 'Ferramentas','Repositórios', 'Gerador']},
     {nome: 'Iconify', categoria: 'Repositórios', descricao: 'Repositório de Ícones, simplão e completão e super organizado.', link: 'https://icon-sets.iconify.design/', tags: ['Icons', 'Repositório', 'Icon', 'Imagens']},
     {nome: 'Flexbox Guia Completo - Origamid', categoria: 'Ferramentas', descricao: 'Tutorial/ferramenta de simulação sobre Flexbox da afamada Origamid', link: 'https://origamid.com/projetos/flexbox-guia-completo/', tags: ['Ferramenta', 'Tutorial', 'Frontend', 'CSS']},
+    {nome: 'JS antes do framework - Origamid', categoria: 'Curso Youtube', descricao: 'Excelente playlist com revisão de 10 ítens de JS', link: 'https://www.youtube.com/watch?v=j6iSONAO6sQ&list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt&ab_channel=Origamid', tags: ['Curso', 'Origamid', 'Frontend', 'JS', 'Revisão']},
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
