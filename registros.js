@@ -66,6 +66,7 @@ const vacinas = [
     {nome: 'CSS Diner', categoria: 'Jogos', descricao: 'Game pra treinar CSS e seletores.', link: 'https://flukeout.github.io/', tags: ['Jogos', 'CSS']},
     {nome: 'Grid Garden', categoria: 'Jogos', descricao: 'O irmão grid do Flexbox Frog ', link: 'https://cssgridgarden.com/', tags: ['Jogos', 'CSS', 'Grid']},
     {nome: 'eBook Eloquent JavaScript', categoria: 'Livros', descricao: 'Eloquent JavaScript (on line)', link: 'https://eloquentjavascript.net/', tags: ['Livro', 'eBook', 'JS']},
+    {nome: 'eBook Eloquent JavaScript - Versão traduzida pt-br', categoria: 'Livros', descricao: 'Eloquent JavaScript (on line)', link: 'https://github.com/braziljs/eloquente-javascript', tags: ['Livro', 'eBook', 'JS', 'BrazilJS']},
     {nome: 'Piskel', categoria: 'Ferramentas', descricao: 'Editor online de sprites animados e pixel art.', link: 'https://www.piskelapp.com/', tags: ['PixelArt', 'Imagens', 'Sprites']},
     {nome: 'Mixamo', categoria: 'Ferramentas', descricao: 'Criador de personagens 3d animados, para games, filmes ou seja lá o que tu imaginar...', link: 'https://www.mixamo.com/#/', tags: ['Sprites', 'Sprites3D']},
     {nome: 'VSCode online', categoria: 'Ferramentas', descricao: 'Um VSCode totalmente online pra usar quando for visitar a vó.', link: 'https://vscode.dev/', tags: ['IDE', 'VSCode']},
