@@ -15,7 +15,7 @@
         <div onclick="carregarHome()" id="botaoHome">
             <img src="img/logo_pH_header.png" alt="logo progHub" id="logoHeader">
         </div>
-        <div id="headerDireita">
+        <!-- <div id="headerDireita"> -->
             <div id="divBtCategorias">
                 <button class="botao" onclick="tratarCliqueCategorias('Curso Youtube')" id="btCurso Youtube" aria-label="Filtrar: Curso Youtube">Cursos Youtube</button>
                 <button class="botao" onclick="tratarCliqueCategorias('Canal Youtube')" id="btCanal Youtube" aria-label="Filtrar: Canal Youtube">Canais</button>
@@ -32,13 +32,15 @@
                 <button class="botao" onclick="tratarCliqueCategorias('Podcasts')" id="btPodcasts" aria-label="Filtrar: Podcasts">Podcasts</button>
                 <button class="botao" onclick="tratarCliqueCategorias('Redes')" id="btRedes" aria-label="Filtrar: Redes Sociais">Redes</button>
                 <button class="botao" onclick="tratarCliqueCategorias('Balaio')" id="btBalaio" aria-label="Filtrar: Balaio, tudo que não tem categoria clara.">Balaio</button>
-                <div id="headerContribuicoes">
-                    <div id="divStats" aria-label="Número de registros mostrados / Número total de registros"></div>
+            </div>
+            <div id="headerContribuicoes">
+                <div class="contribuicoesBotoes">
                     <button class="botao" onclick="mostrarModal()" aria-label="Abrir modal de contribuição"><span class="material-icons" id="icone">add_circle_outline</span></button>
                     <button class="botao" onclick="modSobre.showModal()" aria-label="Abrir modal fofo Sobre o Projeto"><span class="material-icons" id="icone">quiz</span></button>
                 </div>
+                <div id="divStats" aria-label="Número de registros mostrados / Número total de registros"></div>
             </div>
-        </div>
+        <!-- </div> -->
     </nav>
     <main id="mainRegistros"></main>
     <dialog id="modContribuicao">

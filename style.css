@@ -29,6 +29,9 @@ h2{
     padding: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #logoHeader{
@@ -42,6 +45,8 @@ h2{
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    height: auto;
+    flex: 1;
 }
 
 #divStats{
@@ -88,9 +93,9 @@ h2{
     background-color: #000;
     color: whitesmoke;
     border: 0px solid #000;
-    /* height: 30px; */
+    /* max-height: 70px; */
+    height: auto;
     padding: 3px;
-    /* height: 100%; */
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     display: flex;
@@ -139,11 +144,22 @@ h2{
 
 #headerContribuicoes{
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    height: auto;
+    width: 100px;
+}
+.contribuicoesBotoes{
+    display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     gap: 10px;
     margin-left: auto;
+
 }
 
 #icone{
