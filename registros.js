@@ -136,6 +136,8 @@ const vacinas = [
 
 // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
+// https://unicorn-utterances.com/collections/framework-field-guide-fundamentals
+
 // https://htmlcheatsheet.com/js/
 // https://overapi.com/javascript
 // https://overapi.com/java
