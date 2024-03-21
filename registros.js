@@ -141,7 +141,6 @@ const vacinas = [
 
 // https://www.instagram.com/reel/CwfeLLXgsWs/?igshid=ODk2MDJkZDc2Zg==
     // https://iconbuddy.app/
-    // https://storyset.com/
 // https://10015.io/
 // https://splidejs.com/
 // https://animista.net/
