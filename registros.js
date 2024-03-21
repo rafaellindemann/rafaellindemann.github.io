@@ -122,7 +122,13 @@ const vacinas = [
     {nome: '🧡 Iconify', categoria: 'Imagens', descricao: 'Repositório de Ícones, simplão e completão e super organizado.', link: 'https://icon-sets.iconify.design/', tags: ['Icons', 'Repositório', 'Icon', 'Imagens']},
     {nome: 'Flexbox Guia Completo - Origamid', categoria: 'Ferramentas', descricao: 'Tutorial/ferramenta de simulação sobre Flexbox da afamada Origamid', link: 'https://origamid.com/projetos/flexbox-guia-completo/', tags: ['Ferramenta', 'Tutorial', 'Frontend', 'CSS']},
     {nome: 'JS antes do framework - Origamid', categoria: 'Curso Youtube', descricao: 'Excelente playlist com revisão de 10 ítens de JS', link: 'https://www.youtube.com/watch?v=j6iSONAO6sQ&list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt&ab_channel=Origamid', tags: ['Curso', 'Origamid', 'Frontend', 'JS', 'Revisão']},
+    {nome: '🧡 Cheatsheets da codecademy', categoria: 'Ferramentas', descricao: 'Enorme e organizada coleção das famosas Cheatsheets, mas num nível mais macro, quase um bebê de uma cheatsheet com um roadmap com alguns traços do vizinho tutorial', link: 'https://www.codecademy.com/resources/cheatsheets/all', tags: ['Ferramenta', 'cheatsheet', 'codecademy']},
+    {nome: 'Awesome Cheatsheets', categoria: 'Ferramentas', descricao: 'Cheatsheets simples e poderosas, hospedadas no GitHub', link: 'https://lecoupa.github.io/awesome-cheatsheets/', tags: ['Ferramenta', 'cheatsheet']},
+    {nome: '🧡 Devhints Cheatsheets', categoria: 'Ferramentas', descricao: 'A mais oldshool das coleções de cheatsheets, super completa e pormenorizada. Acho a ferramenta de pesquisa deles muito confusa, mas um ctrl+f resolve qualquer coisa.', link: 'https://devhints.io/', tags: ['Ferramenta', 'cheatsheet']},
+    {nome: '🧡 VS Code Cheatsheets', categoria: 'Ferramentas', descricao: 'Cheatsheet de atalhos de teclado do VS Code', link: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', tags: ['Ferramenta', 'cheatsheet', 'VSCode']},
+    {nome: '🧡 javascriptcheatsheet.org', categoria: 'Ferramentas', descricao: 'Se apresenta como cheatsheet do Javascript, mas eu colocaria tranquilamente como livro ou curso de tão completo e bem feito', link: 'https://www.javascriptcheatsheet.org/', tags: ['Ferramenta', 'cheatsheet', 'curso']},
     
+
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
 ]
