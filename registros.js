@@ -136,6 +136,10 @@ const vacinas = [
 
 // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
+// https://htmlcheatsheet.com/js/
+// https://overapi.com/javascript
+// https://overapi.com/java
+// https://github.com/mbeaudru/modern-js-cheatsheet
 
 // https://keepo.io/gratuitospace/ // seleção de cursos gratuitos feita pela 'spacecoding'
 
