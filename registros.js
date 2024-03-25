@@ -133,6 +133,7 @@ const vacinas = [
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
 ]
 
+// https://circumicons.com/icons
 
 // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
