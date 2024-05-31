@@ -149,6 +149,9 @@ const vacinas = [
 // https://icons8.com/
 
 
+// elementos bonitos pra HTML tipo o freefrontend
+// https://app.ui-snippets.com/
+
 // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
 // https://unicorn-utterances.com/collections/framework-field-guide-fundamentals
