@@ -128,8 +128,10 @@ const vacinas = [
     {nome: '🧡 Devhints Cheatsheets', categoria: 'Ferramentas', descricao: 'A mais oldshool das coleções de cheatsheets, super completa e pormenorizada. Acho a ferramenta de pesquisa deles muito confusa, mas um ctrl+f resolve qualquer coisa.', link: 'https://devhints.io/', tags: ['Ferramenta', 'cheatsheet']},
     {nome: '🧡 VS Code Cheatsheets', categoria: 'Ferramentas', descricao: 'Cheatsheet de atalhos de teclado do VS Code', link: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', tags: ['Ferramenta', 'cheatsheet', 'VSCode']},
     {nome: '🧡 javascriptcheatsheet.org', categoria: 'Ferramentas', descricao: 'Se apresenta como cheatsheet do Javascript, mas eu colocaria tranquilamente como livro ou curso de tão completo e bem feito', link: 'https://www.javascriptcheatsheet.org/', tags: ['Ferramenta', 'cheatsheet', 'curso']},
+    {nome: 'project-based-learning', categoria: 'Repositórios', descricao: 'Repositório com uma coleção gigante de projetos guiados em dezenas de linguagens diferentes.', link: 'https://github.com/practical-tutorials/project-based-learning', tags: ['repositório', 'projetos', 'praticar']},
     
 
+    
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
 ]
