@@ -170,3 +170,6 @@ const vacinas = [
 // https://animista.net/
 
 // https://osprogramadores.com/links/
+
+// repo de sugestões de projetos para dezenas de linguagens diferentes
+// https://github.com/practical-tutorials/project-based-learning
