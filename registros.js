@@ -4,6 +4,7 @@ const vacinas = [
     {nome: 'Curso em Vídeo, HTML5 e CSS3, Módulo 2/5', categoria: 'Curso Youtube', descricao: 'O segundo módulo do melhor curso de front para iniciantes, pelo melhor professor do mundo.', link: 'https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&ab_channel=CursoemV%C3%ADdeo', tags: ['HTML', 'CSS', 'Curso', 'Youtube', 'Guanabara', 'CursoEmVídeo', 'SentaEAssiste']},
     {nome: 'Curso em Vídeo, HTML5 e CSS3, Módulo 3/5', categoria: 'Curso Youtube', descricao: 'O terceiro módulo do melhor curso de front para iniciantes, pelo melhor professor do mundo.', link: 'https://www.youtube.com/watch?v=ofFgnDtn_1c&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&ab_channel=CursoemV%C3%ADdeo', tags: ['HTML', 'CSS', 'Curso', 'Youtube', 'Guanabara', 'CursoEmVídeo', 'SentaEAssiste']},
     {nome: 'Curso em Vídeo, HTML5 e CSS3, Módulo 4/5', categoria: 'Curso Youtube', descricao: 'O quarto módulo do melhor curso de front para iniciantes, pelo melhor professor do mundo.', link: 'https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT', tags: ['HTML', 'CSS', 'Curso', 'Youtube', 'Guanabara', 'CursoEmVídeo', 'SentaEAssiste']},
+    {nome: 'Curso em Vídeo, HTML5 e CSS3, Módulo 5/5!!!', categoria: 'Curso Youtube', descricao: 'Finalmente saiu o QUINTO módulo do melhor curso de front para iniciantes, pelo melhor professor do mundo. E a coisa já começa quente com Flexbox!', link: 'https://www.youtube.com/watch?v=rqvn_c2n9Eg&list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d&ab_channel=CursoemV%C3%ADdeo', tags: ['HTML', 'CSS', 'Curso', 'Youtube', 'Guanabara', 'CursoEmVídeo', 'SentaEAssiste']},
     {nome: 'Curso em Vídeo, JavaCript para Iniciantes', categoria: 'Curso Youtube', descricao: 'O basicão de JavaScript muito bem visto com o padrão Guanabara de qualidade', link: 'https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&ab_channel=CursoemV%C3%ADdeo', tags: ['JS','Curso', 'Youtube', 'Guanabara', 'CursoEmVídeo', 'SentaEAssiste']},
     {nome: 'Curso em Vídeo, Git e GitHub', categoria: 'Curso Youtube', descricao: 'O Curso de Git e Github do Guanabara, usando o GitHub Desktop (sem linha de comando)', link: 'https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&ab_channel=CursoemV%C3%ADdeo', tags: ['CursoEmVídeo', 'Guanabara', 'Git', 'GitHub', 'GitHubDesktop']},
     {nome: 'Curso em Vídeo - Lógica de Programação', categoria: 'Curso Youtube', descricao: 'O famoso curso de lógica de programação do Guanabara. Infelizmente ele usa o VisualG na maior parte, mas se abstrair isso super vale a pena! De bônus, o curso inicia com o maravitop Scratch!', link: 'https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&ab_channel=CursoemV%C3%ADdeo', tags: ['Lógica', 'Scratch', 'Guanabara', 'VisualG']},
@@ -127,8 +128,10 @@ const vacinas = [
     {nome: '🧡 Devhints Cheatsheets', categoria: 'Ferramentas', descricao: 'A mais oldshool das coleções de cheatsheets, super completa e pormenorizada. Acho a ferramenta de pesquisa deles muito confusa, mas um ctrl+f resolve qualquer coisa.', link: 'https://devhints.io/', tags: ['Ferramenta', 'cheatsheet']},
     {nome: '🧡 VS Code Cheatsheets', categoria: 'Ferramentas', descricao: 'Cheatsheet de atalhos de teclado do VS Code', link: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', tags: ['Ferramenta', 'cheatsheet', 'VSCode']},
     {nome: '🧡 javascriptcheatsheet.org', categoria: 'Ferramentas', descricao: 'Se apresenta como cheatsheet do Javascript, mas eu colocaria tranquilamente como livro ou curso de tão completo e bem feito', link: 'https://www.javascriptcheatsheet.org/', tags: ['Ferramenta', 'cheatsheet', 'curso']},
+    {nome: 'project-based-learning', categoria: 'Repositórios', descricao: 'Repositório com uma coleção gigante de projetos guiados em dezenas de linguagens diferentes.', link: 'https://github.com/practical-tutorials/project-based-learning', tags: ['repositório', 'projetos', 'praticar']},
     
 
+    
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
 ]
@@ -148,6 +151,9 @@ const vacinas = [
 // https://icons8.com/
 
 
+// elementos bonitos pra HTML tipo o freefrontend
+// https://app.ui-snippets.com/
+
 // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
 // https://unicorn-utterances.com/collections/framework-field-guide-fundamentals
@@ -166,3 +172,6 @@ const vacinas = [
 // https://animista.net/
 
 // https://osprogramadores.com/links/
+
+// repo de sugestões de projetos para dezenas de linguagens diferentes
+// https://github.com/practical-tutorials/project-based-learning
