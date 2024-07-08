@@ -138,15 +138,14 @@ const vacinas = [
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
 ]
 
-// ícones
-
+// ícones pra html e react
 // https://react-icons.github.io/react-icons/
     // 🧡🧡🧡testar pra ter certeza, mas é ícone em componente pronto pro react
 
     // Lista gigante de componentes para react
     // https://github.com/joserodolfofreitas/awesome-react-components
 
-    // https://circumicons.com/icons
+// https://circumicons.com/icons
 // https://fontawesome.com/
 // https://iconoir.com/
 // https://iconbuddy.com/
