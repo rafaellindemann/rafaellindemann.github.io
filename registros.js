@@ -129,6 +129,8 @@ const vacinas = [
     {nome: '🧡 VS Code Cheatsheets', categoria: 'Ferramentas', descricao: 'Cheatsheet de atalhos de teclado do VS Code', link: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', tags: ['Ferramenta', 'cheatsheet', 'VSCode']},
     {nome: '🧡 javascriptcheatsheet.org', categoria: 'Ferramentas', descricao: 'Se apresenta como cheatsheet do Javascript, mas eu colocaria tranquilamente como livro ou curso de tão completo e bem feito', link: 'https://www.javascriptcheatsheet.org/', tags: ['Ferramenta', 'cheatsheet', 'curso']},
     {nome: 'project-based-learning', categoria: 'Repositórios', descricao: 'Repositório com uma coleção gigante de projetos guiados em dezenas de linguagens diferentes.', link: 'https://github.com/practical-tutorials/project-based-learning', tags: ['repositório', 'projetos', 'praticar']},
+    {nome: 'uiverse.io', categoria: 'Repositórios', descricao: 'Repositório de elementos (botão, input, card...) para abrilhantar qualquer frontend.', link: 'https://uiverse.io/', tags: ['repositório', 'elementos', 'frontend']},
+    {nome: 'ui-snippets', categoria: 'Repositórios', descricao: 'Mais um repositório de elementos (botão, input, card...) para abrilhantar qualquer frontend.', link: 'https://app.ui-snippets.com/', tags: ['repositório', 'elementos', 'frontend']},
     
 
     
@@ -151,8 +153,6 @@ const vacinas = [
 // https://icons8.com/
 
 
-// elementos bonitos pra HTML tipo o freefrontend
-// https://app.ui-snippets.com/
 
 // {nome: '', categoria: '', descricao: '', link: '', tags: []},
 
