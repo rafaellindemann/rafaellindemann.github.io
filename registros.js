@@ -131,6 +131,7 @@ const vacinas = [
     {nome: 'project-based-learning', categoria: 'Repositórios', descricao: 'Repositório com uma coleção gigante de projetos guiados em dezenas de linguagens diferentes.', link: 'https://github.com/practical-tutorials/project-based-learning', tags: ['repositório', 'projetos', 'praticar']},
     {nome: 'uiverse.io', categoria: 'Repositórios', descricao: 'Repositório de elementos (botão, input, card...) para abrilhantar qualquer frontend.', link: 'https://uiverse.io/', tags: ['repositório', 'elementos', 'frontend']},
     {nome: 'ui-snippets', categoria: 'Repositórios', descricao: 'Mais um repositório de elementos (botão, input, card...) para abrilhantar qualquer frontend.', link: 'https://app.ui-snippets.com/', tags: ['repositório', 'elementos', 'frontend']},
+    {nome: '🧡 Coolors', categoria: 'Ferramentas', descricao: 'Paletas de cores (gerador, seletor, extrator), Testador de contraste...', link: 'https://coolors.co/', tags: ['Ferramenta', 'cores', 'design', 'paletaDeCores']},
     
 
     
