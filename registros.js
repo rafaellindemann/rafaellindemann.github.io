@@ -133,8 +133,10 @@ const vacinas = [
     {nome: 'uiverse.io', categoria: 'Repositórios', descricao: 'Repositório de elementos (botão, input, card...) para abrilhantar qualquer frontend.', link: 'https://uiverse.io/', tags: ['repositório', 'elementos', 'frontend']},
     {nome: 'ui-snippets', categoria: 'Repositórios', descricao: 'Mais um repositório de elementos (botão, input, card...) para abrilhantar qualquer frontend.', link: 'https://app.ui-snippets.com/', tags: ['repositório', 'elementos', 'frontend']},
     {nome: '🧡 Coolors', categoria: 'Ferramentas', descricao: 'Paletas de cores (gerador, seletor, extrator), testador de contraste, gradientes...', link: 'https://coolors.co/', tags: ['Ferramenta', 'cores', 'design', 'paletaDeCores']},
+    {nome: 'freesets', categoria: 'Repositórios', descricao: 'Uma versão mais curta, visual e bonita deste progHub. Tem muita ferramenta legal lá, vale a pena a visita!', link: 'https://freesets.dev/', tags: ['repositório', 'elementos', 'frontend', 'links', 'copiaDoProgHub']},
     
 
+    
     
     // {nome: '', categoria: '', descricao: '', link: '', tags: []},
     // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
