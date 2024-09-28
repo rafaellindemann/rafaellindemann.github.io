@@ -135,6 +135,7 @@ const vacinas = [
     {nome: '🧡 Coolors', categoria: 'Ferramentas', descricao: 'Paletas de cores (gerador, seletor, extrator), testador de contraste, gradientes...', link: 'https://coolors.co/', tags: ['Ferramenta', 'cores', 'design', 'paletaDeCores']},
     {nome: 'freesets', categoria: 'Repositórios', descricao: 'Uma versão mais curta, visual e bonita deste progHub. Tem muita ferramenta legal lá, vale a pena a visita!', link: 'https://freesets.dev/', tags: ['repositório', 'elementos', 'frontend', 'links', 'copiaDoProgHub']},
     {nome: '🧡 App Algoritmos', categoria: 'Ferramentas', descricao: 'Incrível simulador de algoritmos para android. Perfeito para entender como os algoritmos mais comuns funcionam!', link: 'https://play.google.com/store/apps/details?id=wiki.algorithm.algorithms', tags: ['Ferramenta', 'algoritmos', 'testeDeMesa', 'simulacao']},
+    {nome: '🧡 VisuAlgo.net', categoria: 'Ferramentas', descricao: 'Incrível simulador de algoritmos para android. Perfeito para entender como os algoritmos mais comuns funcionam!', link: 'https://visualgo.net/en', tags: ['Ferramenta', 'algoritmos', 'testeDeMesa', 'simulacao']},
     
 
     
