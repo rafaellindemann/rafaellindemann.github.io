@@ -136,6 +136,7 @@ const vacinas = [
     {nome: 'freesets', categoria: 'Repositórios', descricao: 'Uma versão mais curta, visual e bonita deste progHub. Tem muita ferramenta legal lá, vale a pena a visita!', link: 'https://freesets.dev/', tags: ['repositório', 'elementos', 'frontend', 'links', 'copiaDoProgHub']},
     {nome: '🧡 App Algoritmos', categoria: 'Ferramentas', descricao: 'Incrível simulador de algoritmos para android. Perfeito para entender como os algoritmos mais comuns funcionam!', link: 'https://play.google.com/store/apps/details?id=wiki.algorithm.algorithms', tags: ['Ferramenta', 'algoritmos', 'testeDeMesa', 'simulacao']},
     {nome: '🧡 VisuAlgo.net', categoria: 'Ferramentas', descricao: 'Incrível simulador de algoritmos para android. Perfeito para entender como os algoritmos mais comuns funcionam!', link: 'https://visualgo.net/en', tags: ['Ferramenta', 'algoritmos', 'testeDeMesa', 'simulacao']},
+    {nome: 'Raycast Icon Maker', categoria: 'Imagens', descricao: 'Ferramenta muito legal para personalizar ícones.', link: 'https://ray.so/icon', tags: ['Icons', 'Repositório', 'Icon', 'Imagens', 'ferramenta', 'editor']},
     
 
     
