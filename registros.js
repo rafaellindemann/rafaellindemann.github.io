@@ -148,7 +148,7 @@ const vacinas = [
 
 // ícones pra html e react
 // https://react-icons.github.io/react-icons/
-    // 🧡🧡🧡testar pra ter certeza, mas é ícone em componente pronto pro react
+    
 
     // Lista gigante de componentes para react
     // https://github.com/joserodolfofreitas/awesome-react-components
