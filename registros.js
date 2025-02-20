@@ -140,12 +140,12 @@ const vacinas = [
     {nome: 'Raycast Icon Maker', categoria: 'Imagens', descricao: 'Ferramenta muito legal para personalizar ícones.', link: 'https://ray.so/icon', tags: ['Icons', 'Repositório', 'Icon', 'Imagens', 'ferramenta', 'editor']},
     {nome: 'Pattern Monster', categoria: 'Ferramentas', descricao: 'Ótima ferramenta para criar padrões possivelmente bonitos para usar como background. Aprecie muito, mas com cuidado!', link: 'pattern.monster', tags: ['Ferramenta', 'Patterns', 'Background', 'Imagens']},
     
+]
 
     
     
-    // {nome: '', categoria: '', descricao: '', link: '', tags: []},
-    // Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
-]
+// {nome: '', categoria: '', descricao: '', link: '', tags: []},
+// Categorias disponíveis até agora => Curso Youtube, Curso, Sites, Carreira, Canal YouTube, Jogos, Repositórios, Imagens, Ferramentas, Livros, Exercícios, Fóruns, Podcasts, Balaio, Redes.
 
 // ícones pra html e react
 // https://react-icons.github.io/react-icons/

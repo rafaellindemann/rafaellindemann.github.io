@@ -1,0 +1,19 @@
+:root {
+  font-family: 'Courier New', Courier, monospace;
+
+  --color-orange: #DF4E39;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #101010;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizin: border-box;
+}
+
+#root, body, html{
+  min-height: 100vh;
+}
