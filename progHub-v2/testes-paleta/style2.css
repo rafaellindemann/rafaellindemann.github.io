@@ -41,7 +41,17 @@
     --cor-cinza-fundo: #6B8E23;
     --cor-laranja-logo: #A52A2A; */
 
+    /* --cor-preto: #2E2F1D;
+    --cor-branco: #EDAC38;
+    --cor-cinza-fundo: #595629;
+    --cor-laranja-logo: #A52A2A; */
 
+
+    --cor-vermelho-terra: #B53F25;
+    --cor-verde-musgo: #595629;
+    --cor-verde-escuro: #2E2F1D;
+    --cor-preto-profundo: #010103;
+    --cor-dourado: #EDAC38;
 
   /* Skynet */
   --color-verdeEscuro: #2F4F2F;
@@ -53,11 +63,6 @@
 
 
 
-    --cor-vermelho-terra: #B53F25;
-    --cor-verde-musgo: #595629;
-    --cor-verde-escuro: #2E2F1D;
-    --cor-preto-profundo: #010103;
-    --cor-dourado: #EDAC38;
 
 
 }
@@ -175,7 +180,7 @@ h2 {
     background-color: var(--cor-cinza-fundo);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
