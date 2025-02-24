@@ -45,6 +45,24 @@
     --cor-branco: #EDAC38;
     --cor-cinza-fundo: #595629;
     --cor-laranja-logo: #A52A2A; */
+    
+    --cor-preto: #a7c957;
+    --cor-branco: #010103;
+    --cor-cinza-fundo: #d2a87d;
+    --cor-laranja-logo: #A52A2A;
+    
+    --cor-preto: #d2a87d;
+    --cor-branco: #010103;
+    --cor-cinza-fundo: #a7c957;
+    --cor-laranja-logo: #A52A2A;
+    
+    --cor-preto: #a98467;
+    --cor-branco: #010103;
+    --cor-cinza-fundo: #a7c957;
+    --cor-laranja-logo: #A52A2A;
+
+
+
 
 
     --cor-vermelho-terra: #B53F25;
@@ -63,8 +81,31 @@
 
 
 
+  /* #dda15e
+  #a98467
+#e1bb80
+#dcab6b
+#d2a87d
 
 
+#a7c957
+#52b788
+#55a630
+
+
+  #2a9d8f
+ */
+
+
+}
+
+*{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 body {
@@ -149,7 +190,7 @@ h2 {
     color: var(--cor-branco);
     border: 0px solid var(--cor-preto);
     height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 20px;
 }
 
@@ -159,14 +200,14 @@ h2 {
     border: 0px solid var(--cor-preto);
     height: auto;
     padding: 3px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 20px;
     display: flex;
 }
 
 .botaoClicado {
     height: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 20px;
     background-color: var(--cor-preto);
     color: var(--cor-branco);
