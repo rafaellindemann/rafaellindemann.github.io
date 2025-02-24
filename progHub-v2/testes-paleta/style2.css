@@ -279,6 +279,7 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px; */
 
 
