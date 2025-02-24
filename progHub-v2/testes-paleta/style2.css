@@ -252,7 +252,7 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /* box-shadow: 0 0 10px var(--cor-verdeEscuro); */
     width: 333px;
-    height: 33vh;
+    /* height: 33vh; */
 }
 
 .artigo:hover {
@@ -271,6 +271,9 @@ h2 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-color: var(--cor-dourado);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #headerContribuicoes {
