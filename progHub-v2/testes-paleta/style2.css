@@ -56,28 +56,24 @@
     --cor-cinza-fundo: #a7c957;
     --cor-laranja-logo: #A52A2A;
     
+    /* --cor-preto: #432909;
+    --cor-branco: #010103;
+    --cor-cinza-fundo: #a7c957;
+    --cor-laranja-logo: #A52A2A; */
+    
+    
     --cor-preto: #a98467;
+    --cor-preto: #d2a87d;
     --cor-branco: #010103;
     --cor-cinza-fundo: #a7c957;
     --cor-laranja-logo: #A52A2A;
+    --cor-dourado: #D4A017;
+    
+    
 
 
 
 
-
-    --cor-vermelho-terra: #B53F25;
-    --cor-verde-musgo: #595629;
-    --cor-verde-escuro: #2E2F1D;
-    --cor-preto-profundo: #010103;
-    --cor-dourado: #EDAC38;
-
-  /* Skynet */
-  --color-verdeEscuro: #2F4F2F;
-  --color-verdeClaro: #6B8E23;
-  --color-marrom: #8B4513;
-  --color-dourado: #D4A017;
-  --color-vermelho: #A52A2A;
-  --color-cinza: #3b3b3b
 
 
 
@@ -86,6 +82,7 @@
 #e1bb80
 #dcab6b
 #d2a87d
+#432909
 
 
 #a7c957
@@ -100,12 +97,29 @@
 }
 
 *{
+    box-sizing: border-box;
+
+
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    /* font-weight: <weight>; */
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+    /* font-variation-settings: */
+      width: 100;
+
+      font-family: "Noto Sans Warang Citi", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+  /* font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal; */
+
+  /* font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal; */
+      
 }
 
 body {
@@ -126,6 +140,11 @@ p {
 h2 {
     margin-top: 0px;
     margin-bottom: 3px;
+    padding: 5px;
+    background-color: var(--cor-dourado);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 .navbar {
@@ -137,11 +156,15 @@ h2 {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    /* color: var(--cor-dourado); */
 }
 
 #logoHeader {
     width: 150px;
     height: 66px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    /* filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2)); */
+    
 }
 
 #divBtCategorias {
@@ -163,16 +186,17 @@ h2 {
 }
 
 .botao:hover, #botaoHome:hover {
-    -webkit-box-shadow: inset 0px 0px 5px 5px var(--cor-laranja-logo);
-    -moz-box-shadow: inset 0px 0px 5px 5px var(--cor-laranja-logo);
-    box-shadow: inset 0px 0px 10px 3px var(--cor-laranja-logo);
+    -webkit-box-shadow: inset 0px 0px 5px 5px var(--cor-dourado);
+    -moz-box-shadow: inset 0px 0px 5px 5px var(--cor-dourado);
+    box-shadow: inset 0px 0px 10px 3px var(--cor-dourado);
     border-radius: 5px;
 }
 
 .linkRecurso {
-    border: 3px solid var(--cor-preto);
-    background-color: var(--cor-laranja-logo);
-    color: var(--cor-preto);
+    border: 3px solid var(--cor-laranja-logo);
+    background-color: var(--cor-dourado);
+    color: var(--cor-branco);
+    color: var(--cor-laranja-logo);
     text-decoration: none;
     font-weight: 900;
     padding: 6px;
@@ -188,6 +212,7 @@ h2 {
 .botao {
     background-color: var(--cor-preto);
     color: var(--cor-branco);
+    color: var(--cor-laranja-logo);
     border: 0px solid var(--cor-preto);
     height: 30px;
     /* font-family: 'Courier New', Courier, monospace; */

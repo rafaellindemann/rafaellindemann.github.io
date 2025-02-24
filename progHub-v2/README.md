@@ -54,6 +54,21 @@ Color from pinterest
 
 ```
 
+
+    --cor-vermelho-terra: #B53F25;
+    --cor-verde-musgo: #595629;
+    --cor-verde-escuro: #2E2F1D;
+    --cor-preto-profundo: #010103;
+    --cor-dourado: #EDAC38;
+
+  /* Skynet */
+  --color-verdeEscuro: #2F4F2F;
+  --color-verdeClaro: #6B8E23;
+  --color-marrom: #8B4513;
+  --color-dourado: #D4A017;
+  --color-vermelho: #A52A2A;
+  --color-cinza: #3b3b3b
+
 Logo:
 https://pt.textstudio.com/logo/logotipo-jumanji-editavel-online-667
 
