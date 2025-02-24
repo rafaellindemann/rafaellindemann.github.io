@@ -30,3 +30,9 @@ Quer meter um pull request de respeito? Eis o que ainda tem pendente do escopo o
 - Responsividade;
 - Backend para poder cadastrar novos recursos via web, não mais que um minilito.
 
+
+[]()
+[buscas](https://google.com)
+
+[automágico](https://google.com)
+
