@@ -79,8 +79,24 @@
 
 
 
+    /* https://colorhunt.co/palette/f1f0e941644a0d4715e9762b
+    https://colorhunt.co/palette/186f65b5cb99fce09bb2533e
+    https://colorhunt.co/palette/f2ee9d7a9d54557a468c3333
+    https://colorhunt.co/palette/05921206d0019bec00f3ff90
+    https://colorhunt.co/palette/734444c37857eeedbe99b27f
+    https://colorhunt.co/palette/d2f079c8d35bad8c45a2663e
+    https://colorhunt.co/palette/f0f0efedd690b1bd5d955a47
+    https://colorhunt.co/palette/f9ebc4a7cf5da97555483d3c
+    https://colorhunt.co/palette/61b292aed09ef1e8a7a8896c
+    https://colorhunt.co/palette/b5edbaf06f32a44444594129
+    https://colorhunt.co/palette/76ba99876445ca955ceddfb3
+     */
 
-  /* #dda15e
+  /*
+  
+  
+  
+  #dda15e
   #a98467
 #e1bb80
 #dcab6b
@@ -133,6 +149,18 @@ body {
     padding: 0;
     /* font-family: 'Courier New', Courier, monospace; */
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    background: hsla(30, 49%, 66%, 1);
+
+background: linear-gradient(180deg, hsla(30, 49%, 66%, 1) 0%, hsla(26, 28%, 53%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(30, 49%, 66%, 1) 0%, hsla(26, 28%, 53%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(30, 49%, 66%, 1) 0%, hsla(26, 28%, 53%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D2A87D", endColorstr="#A98467", GradientType=1 );
+
+
 }
 
 p {
@@ -350,7 +378,7 @@ main{
     /* column-count: 3;
     column-gap: 16px; */
 
-    column-width: 250px; /* Define um tamanho mínimo para as colunas */
+    column-width: 350px; /* Define um tamanho mínimo para as colunas */
     column-gap: 16px;
 }
 
