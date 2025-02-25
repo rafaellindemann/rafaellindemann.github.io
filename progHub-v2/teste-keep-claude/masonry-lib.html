@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout estilo Google Keep com Masonry.js</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .grid-sizer,
+        .grid-item {
+            width: 100%;
+        }
+        
+        @media (min-width: 576px) {
+            .grid-sizer,
+            .grid-item {
+                width: calc(50% - 10px);
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .grid-sizer,
+            .grid-item {
+                width: calc(33.333% - 12px);
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .grid-sizer,
+            .grid-item {
+                width: calc(25% - 12px);
+            }
+        }
+        
+        .grid-item {
+            margin-bottom: 16px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 16px;
+            height: 100%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .card h3 {
+            margin-bottom: 10px;
+            color: #202124;
+        }
+        
+        .card p {
+            color: #5f6368;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://rafaellindemann.notion.site/wip-Masonry-js-lib-para-grid-de-cards-estilo-Google-Keep-Vanilla-e-React-1a5d393ff68e80f59e11c25779997101?pvs=74">Doc Notion sobre Masonry</a>
+    <div class="container">
+        <div class="grid">
+            <div class="grid-sizer"></div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 1</h3>
+                    <p>Conteúdo curto.</p>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 2</h3>
+                    <p>Conteúdo médio com mais algumas palavras para mostrar a diferença de altura entre os cards. Esse conteúdo tem várias linhas para demonstrar o funcionamento do layout.</p>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 3</h3>
+                    <p>Conteúdo pequeno.</p>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 4</h3>
+                    <p>Este é um exemplo de um card com conteúdo longo. O layout masonry permite que os cards se organizem de forma eficiente, preenchendo os espaços vazios. Isso é especialmente útil quando você tem conteúdo de tamanhos variados. Repare como este card mais alto não força os outros cards a se alinharem na mesma altura, diferente do que aconteceria em um grid tradicional.</p>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 5</h3>
+                    <p>Outro card de tamanho médio para demonstração. O layout se ajusta automaticamente.</p>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 6</h3>
+                    <p>Card pequeno.</p>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 7</h3>
+                    <p>Mais um card com conteúdo de tamanho variável para demonstrar como o layout funciona bem para diferentes quantidades de texto.</p>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="card">
+                    <h3>Título do Card 8</h3>
+                    <p>Card pequeno final.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Importe o Masonry do CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // Inicialize o Masonry após o carregamento da página
+        window.addEventListener('load', function() {
+            var grid = document.querySelector('.grid');
+            var masonry = new Masonry(grid, {
+                itemSelector: '.grid-item',
+                columnWidth: '.grid-sizer',
+                percentPosition: true,
+                gutter: 16
+            });
+            
+            // Recarregue o layout após 100ms para garantir que imagens e fontes foram carregadas
+            setTimeout(function() {
+                masonry.layout();
+            }, 100);
+        });
+    </script>
+</body>
+</html>
