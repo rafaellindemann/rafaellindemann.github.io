@@ -1,9 +1,17 @@
 .container-body {
-    background-color: var(--color-black);
+    background-color: var(--color-brown);
     
     
-    color: var(--color-white);
+    color: var(--color-black);
     min-height: 100vh;
     
     
+}
+
+.registros{
+    /* background-color: var(--color-black); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
