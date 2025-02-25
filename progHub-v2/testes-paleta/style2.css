@@ -270,54 +270,7 @@ h2 {
     border: 2px dashed var(--cor-laranja-logo);
 }
 
-.artigo {
-    /* margin: 20px; */
-    /* border-radius: 15px;
-    padding: 10px;
-    background-color: var(--cor-cinza-fundo);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 333px; */
-    /* box-shadow: 0 0 10px var(--cor-verdeEscuro); */
-    /* height: 33vh; */
 
-/* teste com grid para efeito keep1 */
-    /* background: #101010;
-    color: white;
-    padding: 16px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    grid-row: span auto;  */
-
-
-    background: var(--cor-cinza-fundo);
-    color: white;
-    padding: 16px;
-    border-radius: 10px;
-    display: inline-block; /* Evita que quebre errado */
-    width: 100%;
-    margin-bottom: 16px;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px; */
-
-
-}
-
-.artigo:hover {
-    -webkit-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
-    -moz-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
-    box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
-}
 
 .tags {
     color: var(--cor-laranja-logo);
@@ -382,3 +335,52 @@ main{
     column-gap: 16px;
 }
 
+
+.artigo {
+    /* margin: 20px; */
+    /* border-radius: 15px;
+    padding: 10px;
+    background-color: var(--cor-cinza-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 333px; */
+    /* box-shadow: 0 0 10px var(--cor-verdeEscuro); */
+    /* height: 33vh; */
+
+/* teste com grid para efeito keep1 */
+    /* background: #101010;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    grid-row: span auto;  */
+
+
+    background: var(--cor-cinza-fundo);
+    color: var(--cor-laranja-logo);
+    padding: 16px;
+    border-radius: 10px;
+    display: inline-block; /* Evita que quebre errado */
+    width: 100%;
+    margin-bottom: 16px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; */
+
+
+}
+
+.artigo:hover {
+    -webkit-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
+    -moz-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
+    box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
+}
