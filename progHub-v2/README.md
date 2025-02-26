@@ -1,5 +1,9 @@
 
 
+Sobre libs de componentes prontos x masonry: 
+[no Notion](https://www.notion.so/rafaellindemann/pesquisa-Sobre-possibilidades-de-implementa-o-do-layout-masonry-com-React-1a6d393ff68e8046a7ced20052cc478c)
+
+
 Paleta de cores: 
 https://ar.pinterest.com/pin/687643436886583700/
 https://www.color-hex.com/color-palette/1030356
