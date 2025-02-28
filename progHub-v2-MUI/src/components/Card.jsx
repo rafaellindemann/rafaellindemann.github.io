@@ -12,10 +12,15 @@ import {
 
 function Card({ r }) {
   return (
-      <MuiCard sx={{ maxWidth: 345, margin: 2 }}>
+      <MuiCard sx={{ maxWidth: 345, margin: 2 }}
+        variant='outlined'
+      >
         {/* {console.log(r.tags)} */}
       <CardHeader 
         title={r.nome}
+        variant="h5"
+        // sx={{ bgcolor: 'primary.main', color: 'primary.contrastText' }}
+        sx={{ color: 'primary.main', bgcolor: 'primary.contrastText' }}
       />
       <CardContent>
         <Typography variant="body1" color="text.primary" gutterBottom>
@@ -31,6 +36,7 @@ function Card({ r }) {
               key={index} 
               label={tag.trim()} 
               size="small" 
+              color="secondary"
               variant="outlined" 
             />
           ))}
@@ -38,11 +44,12 @@ function Card({ r }) {
       </CardContent>
       <CardActions>
         <Button 
-          size="small" 
+          size="medium" 
           color="primary" 
           href={r.link} 
           target="_blank" 
           rel="noreferrer"
+          variant="outlined"
         >
           Acessar recurso
         </Button>

@@ -18,7 +18,7 @@ function Body() {
       <Container maxWidth="xl">
         <Grid 
           container 
-          spacing={2}
+          spacing={1}
           justifyContent="flex-start"
           alignItems="flex-start"
         >

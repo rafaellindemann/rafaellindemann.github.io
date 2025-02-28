@@ -1,73 +1,75 @@
-import React, { useContext, useState } from 'react';
-import { 
-  AppBar, 
-  Toolbar, 
-  Button, 
-  Box, 
+import React, { useContext, useState } from "react";
+import {
+  AppBar,
+  Toolbar,
+  Button,
+  Box,
   ButtonGroup,
   useTheme,
   useMediaQuery,
   IconButton,
   Menu,
   MenuItem,
-  Typography
-} from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import { GlobalContext } from '../contexts/GlobalContext';
+  Typography,
+} from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
+import { GlobalContext } from "../contexts/GlobalContext";
 
 function Header() {
   const { categories, resources, handleFilter } = useContext(GlobalContext);
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   // Para o menu mobile
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
-  
+
   const handleMenuClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
-  
+
   const handleMenuClose = () => {
     setAnchorEl(null);
   };
-  
+
   const handleCategoryClick = (category) => {
     handleFilter(category);
     handleMenuClose();
   };
 
   return (
-    <AppBar 
-      position="static" 
-      sx={{ 
-        backgroundColor: '#FFFFFF',
-        color: 'text.primary',
+    <AppBar
+      position="static"
+      sx={{
+        backgroundColor: "#FFFFFF",
+        color: "text.primary",
         boxShadow: 1,
-        padding: 1
+        padding: 1,
       }}
     >
-      <Toolbar sx={{ 
-        display: 'flex', 
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap'
-      }}>
-        <Box 
-          onClick={() => handleFilter(null)} 
-          sx={{ 
-            cursor: 'pointer',
-            display: 'flex',
-            alignItems: 'center' 
+      <Toolbar
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+          flexWrap: "wrap",
+        }}
+      >
+        <Box
+          onClick={() => handleFilter(null)}
+          sx={{
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
           }}
         >
-          <img 
-            src="./img/logo_pH_header.png" 
-            alt="logo progHub" 
-            style={{ height: '40px' }} 
+          <img
+            src="./img/JAMANJO-2-23-2025.png"
+            alt="logo progHub"
+            style={{ height: "40px" }}
           />
         </Box>
-        
+
         {isMobile ? (
           <>
             <IconButton
@@ -78,13 +80,9 @@ function Header() {
             >
               <MenuIcon />
             </IconButton>
-            <Menu
-              anchorEl={anchorEl}
-              open={open}
-              onClose={handleMenuClose}
-            >
+            <Menu anchorEl={anchorEl} open={open} onClose={handleMenuClose}>
               {categories.map((category) => (
-                <MenuItem 
+                <MenuItem
                   key={category}
                   onClick={() => handleCategoryClick(category)}
                 >
@@ -94,8 +92,8 @@ function Header() {
             </Menu>
           </>
         ) : (
-          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-            <ButtonGroup variant="outlined" color="primary">
+          <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
+            {/* <ButtonGroup variant="contained" color="primary">
               {categories.map((category) => (
                 <Button
                   key={category}
@@ -104,10 +102,28 @@ function Header() {
                   {category}
                 </Button>
               ))}
+            </ButtonGroup> */}
+            <ButtonGroup
+              disableElevation
+              variant="contained"
+              color="primary"
+              sx={{
+                flexWrap: "wrap",
+                justifyContent: "center",
+                "& .MuiButtonGroup-grouped": {
+                  margin: "4px 0", // Para evitar que os botões fiquem muito juntos quando quebram para a próxima linha
+                },
+              }}
+            >
+              {categories.map((category) => (
+                <Button key={category} onClick={() => handleFilter(category)}>
+                  {category}
+                </Button>
+              ))}
             </ButtonGroup>
           </Box>
         )}
-        
+
         {/* Área comentada no código original */}
         {/* <Box>
           <ButtonGroup>
@@ -126,13 +142,12 @@ function Header() {
 
 export default Header;
 
-
 // import React, { useContext } from 'react';
-// import { 
-//   AppBar, 
-//   Toolbar, 
-//   Button, 
-//   Box, 
+// import {
+//   AppBar,
+//   Toolbar,
+//   Button,
+//   Box,
 //   ButtonGroup,
 //   useTheme,
 //   useMediaQuery,
@@ -149,53 +164,53 @@ export default Header;
 //   const { categories, resources, handleFilter } = useContext(GlobalContext);
 //   const theme = useTheme();
 //   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  
+
 //   // Para o menu mobile
 //   const [anchorEl, setAnchorEl] = useState(null);
 //   const open = Boolean(anchorEl);
-  
+
 //   const handleMenuClick = (event) => {
 //     setAnchorEl(event.currentTarget);
 //   };
-  
+
 //   const handleMenuClose = () => {
 //     setAnchorEl(null);
 //   };
-  
+
 //   const handleCategoryClick = (category) => {
 //     handleFilter(category);
 //     handleMenuClose();
 //   };
 
 //   return (
-//     <AppBar 
-//       position="static" 
-//       sx={{ 
+//     <AppBar
+//       position="static"
+//       sx={{
 //         backgroundColor: theme.palette.mode === 'light' ? '#8B4513' : '#5D4037',
 //         padding: 1
 //       }}
 //     >
-//       <Toolbar sx={{ 
-//         display: 'flex', 
+//       <Toolbar sx={{
+//         display: 'flex',
 //         flexDirection: 'row',
 //         justifyContent: 'space-between',
 //         flexWrap: 'wrap'
 //       }}>
-//         <Box 
-//           onClick={() => handleFilter(null)} 
-//           sx={{ 
+//         <Box
+//           onClick={() => handleFilter(null)}
+//           sx={{
 //             cursor: 'pointer',
 //             display: 'flex',
-//             alignItems: 'center' 
+//             alignItems: 'center'
 //           }}
 //         >
-//           <img 
-//             src="./img/logo_pH_header.png" 
-//             alt="logo progHub" 
-//             style={{ height: '40px' }} 
+//           <img
+//             src="./img/logo_pH_header.png"
+//             alt="logo progHub"
+//             style={{ height: '40px' }}
 //           />
 //         </Box>
-        
+
 //         {isMobile ? (
 //           <>
 //             <IconButton
@@ -212,7 +227,7 @@ export default Header;
 //               onClose={handleMenuClose}
 //             >
 //               {categories.map((category) => (
-//                 <MenuItem 
+//                 <MenuItem
 //                   key={category}
 //                   onClick={() => handleCategoryClick(category)}
 //                 >
@@ -228,7 +243,7 @@ export default Header;
 //                 <Button
 //                   key={category}
 //                   onClick={() => handleFilter(category)}
-//                   sx={{ 
+//                   sx={{
 //                     backgroundColor: 'rgba(255, 255, 255, 0.1)',
 //                     '&:hover': {
 //                       backgroundColor: 'rgba(255, 255, 255, 0.2)',
@@ -241,7 +256,7 @@ export default Header;
 //             </ButtonGroup>
 //           </Box>
 //         )}
-        
+
 //         {/* Área comentada no código original */}
 //         {/* <Box>
 //           <ButtonGroup>
@@ -259,7 +274,6 @@ export default Header;
 // }
 
 // export default Header;
-
 
 // import './Header.css'
 
