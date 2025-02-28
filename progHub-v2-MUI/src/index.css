@@ -59,9 +59,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizin: border-box;
+  box-sizing: border-box;
 }
 
 #root, body, html{
   min-height: 100vh;
+  /* background-color: #bbb; */
 }

@@ -1,3 +1,6 @@
+
+
+
 :root {
     --cor-preto: #2E2F1D;
     --cor-branco: #EDAC38;
@@ -36,7 +39,7 @@
     --cor-cinza-fundo: #6B8E23;
     --cor-laranja-logo: #A52A2A; */
 
-    /* --cor-preto: #8B4513;
+    /* --cor-preto:#8b4513;
     --cor-branco: #3b3b3b;
     --cor-cinza-fundo: #6B8E23;
     --cor-laranja-logo: #A52A2A; */
@@ -79,8 +82,24 @@
     /* https://lospec.com/palette-list/gb-swamp */
 
 
+    /* https://colorhunt.co/palette/f1f0e941644a0d4715e9762b
+    https://colorhunt.co/palette/186f65b5cb99fce09bb2533e
+    https://colorhunt.co/palette/f2ee9d7a9d54557a468c3333
+    https://colorhunt.co/palette/05921206d0019bec00f3ff90
+    https://colorhunt.co/palette/734444c37857eeedbe99b27f
+    https://colorhunt.co/palette/d2f079c8d35bad8c45a2663e
+    https://colorhunt.co/palette/f0f0efedd690b1bd5d955a47
+    https://colorhunt.co/palette/f9ebc4a7cf5da97555483d3c
+    https://colorhunt.co/palette/61b292aed09ef1e8a7a8896c
+    https://colorhunt.co/palette/b5edbaf06f32a44444594129
+    https://colorhunt.co/palette/76ba99876445ca955ceddfb3
+     */
 
-  /* #dda15e
+  /*
+  
+  
+  
+  #dda15e
   #a98467
 #e1bb80
 #dcab6b
@@ -133,6 +152,18 @@ body {
     padding: 0;
     /* font-family: 'Courier New', Courier, monospace; */
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    background: hsla(30, 49%, 66%, 1);
+
+background: linear-gradient(180deg, hsla(30, 49%, 66%, 1) 0%, hsla(26, 28%, 53%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(30, 49%, 66%, 1) 0%, hsla(26, 28%, 53%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(30, 49%, 66%, 1) 0%, hsla(26, 28%, 53%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D2A87D", endColorstr="#A98467", GradientType=1 );
+
+
 }
 
 p {
@@ -242,27 +273,7 @@ h2 {
     border: 2px dashed var(--cor-laranja-logo);
 }
 
-.artigo {
-    border-radius: 15px;
-    /* margin: 20px; */
-    padding: 10px;
-    background-color: var(--cor-cinza-fundo);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    /* box-shadow: 0 0 10px var(--cor-verdeEscuro); */
-    width: 333px;
-    /* height: 33vh; */
-}
 
-.artigo:hover {
-    -webkit-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
-    -moz-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
-    box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
-}
 
 .tags {
     color: var(--cor-laranja-logo);
@@ -304,11 +315,75 @@ h2 {
 }
 
 main{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    margin: 20px;
+    margin: 20px; */
+
+
+    /* teste com grid para efeito keep1 */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 16px; */
+    /* grid-auto-rows: 10px; Altura base de cada "linha" da grade */
+
+    /* keep 2 */
+    /* column-count: 3;
+    column-gap: 16px; */
+
+    column-width: 350px; /* Define um tamanho mínimo para as colunas */
+    column-gap: 16px;
+}
+
+
+.artigo {
+    /* margin: 20px; */
+    /* border-radius: 15px;
+    padding: 10px;
+    background-color: var(--cor-cinza-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 333px; */
+    /* box-shadow: 0 0 10px var(--cor-verdeEscuro); */
+    /* height: 33vh; */
+
+/* teste com grid para efeito keep1 */
+    /* background: #101010;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    grid-row: span auto;  */
+
+
+    background: var(--cor-cinza-fundo);
+    color: var(--cor-laranja-logo);
+    padding: 16px;
+    border-radius: 10px;
+    display: inline-block; /* Evita que quebre errado */
+    width: 100%;
+    margin-bottom: 16px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; */
+
+
+}
+
+.artigo:hover {
+    -webkit-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
+    -moz-box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
+    box-shadow: 0px 0px 14px 5px var(--cor-laranja-logo);
 }
