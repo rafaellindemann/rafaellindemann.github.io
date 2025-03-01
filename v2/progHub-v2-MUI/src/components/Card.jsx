@@ -21,7 +21,8 @@ function Card({ r }) {
         title={r.nome}
         variant="h5"
         // sx={{ bgcolor: 'primary.main', color: 'primary.contrastText' }}
-        sx={{ color: 'primary.main', bgcolor: 'primary.contrastText' }}
+        sx={{ color: 'secondary.main', bgcolor: 'primary.contrastText' }}
+        // sx={{ color: 'primary.main', bgcolor: 'primary.contrastText' }}
       />
       <CardContent>
         <Typography variant="body1" color="text.primary" gutterBottom>
@@ -37,6 +38,7 @@ function Card({ r }) {
               key={index} 
               label={tag.trim()} 
               size="small" 
+              // color="primary"
               color="secondary"
               variant="outlined" 
             />

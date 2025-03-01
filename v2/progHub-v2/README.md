@@ -1,4 +1,14 @@
 
+SUGESTÕES DE FEATURES DA CLAUDIA
+Cores diferentes para os cards
+Animações suaves quando os cards são adicionados ou removidos
+Um sistema de pesquisa/filtragem por texto
+Possibilidade de arrastar e reorganizar os cards
+Cards expansíveis ou com mais detalhes ao clicar
+
+
+
+==========================
 
 Sobre libs de componentes prontos x masonry: 
 [no Notion](https://www.notion.so/rafaellindemann/pesquisa-Sobre-possibilidades-de-implementa-o-do-layout-masonry-com-React-1a6d393ff68e8046a7ced20052cc478c)
