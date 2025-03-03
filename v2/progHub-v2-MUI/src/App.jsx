@@ -13,10 +13,10 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#6B8E23', // Azul - você pode substituir por qualquer cor que desejar
+      main: '#6B8E23', 
     },
     secondary: {
-      main: '#8B4513', // Rosa - você pode substituir por qualquer cor que desejar
+      main: '#8B4513', 
     },
     // Você pode adicionar mais cores personalizadas
     success: {

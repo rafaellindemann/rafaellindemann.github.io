@@ -14,7 +14,7 @@ function Card({ r }) {
   return (
       <MuiCard sx={{ maxWidth: 345, margin: 2 }}
         // variant='outlined'
-        elevation={5}
+        elevation={10}
       >
         {/* {console.log(r.tags)} */}
       <CardHeader 

@@ -1,6 +1,3 @@
-// layout do header ainda não tá aceitável
-// acrescentar botões pra limpar filtros
-
 
 import React, { useContext, useState } from "react";
 import {
@@ -22,7 +19,7 @@ import HelpIcon from "@mui/icons-material/Help";
 import { GlobalContext } from "../contexts/GlobalContext";
 
 function Header() {
-  const { categories, resources, handleFilter } = useContext(GlobalContext);
+  const { categories, resources, handleFilter, filters } = useContext(GlobalContext);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -54,11 +51,18 @@ function Header() {
     // Implementação futura
   };
 
+  // Verifica se uma categoria está selecionada
+  const isCategorySelected = (category) => {
+    return filters && filters.includes(category);
+  };
+
   return (
     <AppBar
       position="static"
       sx={{
         backgroundColor: "#FFFFFF",
+        backgroundColor: "snow",
+        bgcolor: '#6B8E23', 
         color: "text.primary",
         boxShadow: 1,
         padding: 1,
@@ -110,6 +114,14 @@ function Header() {
                 <MenuItem
                   key={category}
                   onClick={() => handleCategoryClick(category)}
+                  selected={isCategorySelected(category)}
+                  sx={{
+                    backgroundColor: isCategorySelected(category) ? 'rgba(255, 255, 255, 0.2)' : 'inherit',
+                    "&.Mui-selected": {
+                      color: "secondary.main",
+                      fontWeight: "bold",
+                    }
+                  }}
                 >
                   <Typography variant="body1">{category}</Typography>
                 </MenuItem>
@@ -138,7 +150,18 @@ function Header() {
               }}
             >
               {categories.map((category) => (
-                <Button key={category} onClick={() => handleFilter(category)}>
+                <Button 
+                  key={category} 
+                  onClick={() => handleFilter(category)}
+                  sx={{
+                    color: isCategorySelected(category) ? "secondary.main" : "primary",
+                    fontWeight: isCategorySelected(category) ? "bold" : "normal",
+                    backgroundColor: isCategorySelected(category) ? 'rgba(255, 255, 255, 0.2)' : 'inherit',
+                    '&:hover': {
+                      backgroundColor: isCategorySelected(category) ? 'rgba(255, 255, 255, 0.3)' : 'rgba(255, 255, 255, 0.1)'
+                    }
+                  }}
+                >
                   {category}
                 </Button>
               ))}
@@ -147,7 +170,7 @@ function Header() {
         )}
 
         {/* Botões de ação (sempre visíveis, mesmo no mobile) */}
-        <Box 
+        {/* <Box 
           sx={{ 
             display: "flex", 
             alignItems: "center",
@@ -163,13 +186,17 @@ function Header() {
               <HelpIcon />
             </IconButton>
           </ButtonGroup>
-        </Box>
+        </Box> */}
       </Toolbar>
     </AppBar>
   );
 }
 
 export default Header;
+
+// // layout do header ainda não tá aceitável
+// // acrescentar botões pra limpar filtros
+
 
 // import React, { useContext, useState } from "react";
 // import {
@@ -191,7 +218,7 @@ export default Header;
 // import { GlobalContext } from "../contexts/GlobalContext";
 
 // function Header() {
-//   const { categories, resources, handleFilter } = useContext(GlobalContext);
+//   const { categories, resources, handleFilter, filters } = useContext(GlobalContext);
 //   const theme = useTheme();
 //   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -228,26 +255,33 @@ export default Header;
 //       position="static"
 //       sx={{
 //         backgroundColor: "#FFFFFF",
+//         backgroundColor: "snow",
+//         // bgcolor: '#8B4513', 
+//         bgcolor: '#6B8E23', 
 //         color: "text.primary",
 //         boxShadow: 1,
 //         padding: 1,
+//         // boxShadow: 'inset 0px 0px 10px 10px #8B4513',
+//         // padding: 3,
+//         // boxShadow: 'inset 0px 0px 10px 10px #6B8E23',
 //       }}
 //     >
 //       <Toolbar
 //         sx={{
 //           display: "flex",
-//           justifyContent: "space-between",
-//           padding: "0 16px",
 //           flexWrap: "wrap",
+//           gap: 2, // Espaçamento entre os elementos
+//           padding: "0 16px",
 //         }}
 //       >
-//         {/* Logo à esquerda */}
+//         {/* Logo à esquerda (sempre visível) */}
 //         <Box
 //           onClick={() => handleFilter(null)}
 //           sx={{
 //             cursor: "pointer",
 //             display: "flex",
 //             alignItems: "center",
+//             order: 1, // Ordem de exibição: primeiro
 //           }}
 //         >
 //           <img
@@ -259,12 +293,17 @@ export default Header;
 
 //         {/* Menu mobile ou botões centralizados */}
 //         {isMobile ? (
-//           <>
+//           <Box
+//             sx={{
+//               display: "flex",
+//               alignItems: "center",
+//               order: 2, // Ordem de exibição: segundo
+//             }}
+//           >
 //             <IconButton
 //               color="primary"
 //               aria-label="menu"
 //               onClick={handleMenuClick}
-//               edge="start"
 //             >
 //               <MenuIcon />
 //             </IconButton>
@@ -278,24 +317,26 @@ export default Header;
 //                 </MenuItem>
 //               ))}
 //             </Menu>
-//           </>
+//           </Box>
 //         ) : (
 //           <Box 
 //             sx={{ 
-//               display: "flex", 
-//               justifyContent: "center", 
-//               flexGrow: 1 
+//               display: "flex",
+//               flexGrow: 1, // Permite crescer e ocupar espaço disponível
+//               justifyContent: "flex-start", // Alinha à esquerda após o logo
+//               flexWrap: "wrap",
+//               order: 2, // Ordem de exibição: segundo
 //             }}
 //           >
 //             <ButtonGroup
 //               disableElevation
 //               variant="contained"
+//               // variant="outlined"
 //               color="primary"
 //               sx={{
 //                 flexWrap: "wrap",
-//                 justifyContent: "center",
 //                 "& .MuiButtonGroup-grouped": {
-//                   margin: "4px 0", // Para evitar que os botões fiquem muito juntos quando quebram para a próxima linha
+//                   margin: "4px 2px", // Espaçamento vertical e horizontal
 //                 },
 //               }}
 //             >
@@ -308,13 +349,13 @@ export default Header;
 //           </Box>
 //         )}
 
-//         {/* Botões de ação à direita */}
-//         <Box 
+//         {/* Botões de ação (sempre visíveis, mesmo no mobile) */}
+//         {/* <Box 
 //           sx={{ 
 //             display: "flex", 
 //             alignItems: "center",
-//             // Esconder os botões de ação em telas muito pequenas
-//             display: { xs: isMobile ? "none" : "flex", sm: "flex" } 
+//             marginLeft: "auto", // Empurra para a extrema direita quando possível
+//             order: 3, // Ordem de exibição: terceiro
 //           }}
 //         >
 //           <ButtonGroup>
@@ -325,12 +366,10 @@ export default Header;
 //               <HelpIcon />
 //             </IconButton>
 //           </ButtonGroup>
-//         </Box>
+//         </Box> */}
 //       </Toolbar>
 //     </AppBar>
 //   );
 // }
 
 // export default Header;
-
-
