@@ -1,3 +1,9 @@
+// acrescentar botões pra limpar filtros
+// Acrescentar contador de registros
+// Acrescentar botões de modal da biscoitagem ou card
+// ajeitar o layout do header para o flexbox não ficar estranho
+// mudar a cor do botao do hamburger
+
 
 import React, { useContext, useState } from "react";
 import {
@@ -35,8 +41,25 @@ function Header() {
     setAnchorEl(null);
   };
 
+  // Verifica se uma categoria está selecionada
+  const isCategorySelected = (category) => {
+    return filters && filters.includes(category);
+  };
+
+  // Função para alternar entre filtrar e limpar filtro
+  const toggleFilter = (category) => {
+    if (isCategorySelected(category)) {
+      // Se a categoria já está selecionada, limpa o filtro
+      handleFilter(null);
+    } else {
+      // Se não está selecionada, aplica o filtro
+      handleFilter(category);
+    }
+  };
+
+  // Versão para o menu mobile que também fecha o menu
   const handleCategoryClick = (category) => {
-    handleFilter(category);
+    toggleFilter(category);
     handleMenuClose();
   };
 
@@ -49,11 +72,6 @@ function Header() {
   const mostrarSobre = () => {
     console.log("Abrir modal sobre");
     // Implementação futura
-  };
-
-  // Verifica se uma categoria está selecionada
-  const isCategorySelected = (category) => {
-    return filters && filters.includes(category);
   };
 
   return (
@@ -152,9 +170,9 @@ function Header() {
               {categories.map((category) => (
                 <Button 
                   key={category} 
-                  onClick={() => handleFilter(category)}
+                  onClick={() => toggleFilter(category)}
                   sx={{
-                    color: isCategorySelected(category) ? "secondary.main" : "primary",
+                    color: isCategorySelected(category) ? "secondary.main" : "white",
                     fontWeight: isCategorySelected(category) ? "bold" : "normal",
                     backgroundColor: isCategorySelected(category) ? 'rgba(255, 255, 255, 0.2)' : 'inherit',
                     '&:hover': {
@@ -194,8 +212,6 @@ function Header() {
 
 export default Header;
 
-// // layout do header ainda não tá aceitável
-// // acrescentar botões pra limpar filtros
 
 
 // import React, { useContext, useState } from "react";
@@ -250,20 +266,21 @@ export default Header;
 //     // Implementação futura
 //   };
 
+//   // Verifica se uma categoria está selecionada
+//   const isCategorySelected = (category) => {
+//     return filters && filters.includes(category);
+//   };
+
 //   return (
 //     <AppBar
 //       position="static"
 //       sx={{
 //         backgroundColor: "#FFFFFF",
 //         backgroundColor: "snow",
-//         // bgcolor: '#8B4513', 
 //         bgcolor: '#6B8E23', 
 //         color: "text.primary",
 //         boxShadow: 1,
 //         padding: 1,
-//         // boxShadow: 'inset 0px 0px 10px 10px #8B4513',
-//         // padding: 3,
-//         // boxShadow: 'inset 0px 0px 10px 10px #6B8E23',
 //       }}
 //     >
 //       <Toolbar
@@ -312,6 +329,14 @@ export default Header;
 //                 <MenuItem
 //                   key={category}
 //                   onClick={() => handleCategoryClick(category)}
+//                   selected={isCategorySelected(category)}
+//                   sx={{
+//                     backgroundColor: isCategorySelected(category) ? 'rgba(255, 255, 255, 0.2)' : 'inherit',
+//                     "&.Mui-selected": {
+//                       color: "secondary.main",
+//                       fontWeight: "bold",
+//                     }
+//                   }}
 //                 >
 //                   <Typography variant="body1">{category}</Typography>
 //                 </MenuItem>
@@ -331,7 +356,6 @@ export default Header;
 //             <ButtonGroup
 //               disableElevation
 //               variant="contained"
-//               // variant="outlined"
 //               color="primary"
 //               sx={{
 //                 flexWrap: "wrap",
@@ -341,7 +365,18 @@ export default Header;
 //               }}
 //             >
 //               {categories.map((category) => (
-//                 <Button key={category} onClick={() => handleFilter(category)}>
+//                 <Button 
+//                   key={category} 
+//                   onClick={() => handleFilter(category)}
+//                   sx={{
+//                     color: isCategorySelected(category) ? "secondary.main" : "primary",
+//                     fontWeight: isCategorySelected(category) ? "bold" : "normal",
+//                     backgroundColor: isCategorySelected(category) ? 'rgba(255, 255, 255, 0.2)' : 'inherit',
+//                     '&:hover': {
+//                       backgroundColor: isCategorySelected(category) ? 'rgba(255, 255, 255, 0.3)' : 'rgba(255, 255, 255, 0.1)'
+//                     }
+//                   }}
+//                 >
 //                   {category}
 //                 </Button>
 //               ))}
@@ -373,3 +408,7 @@ export default Header;
 // }
 
 // export default Header;
+
+
+
+
