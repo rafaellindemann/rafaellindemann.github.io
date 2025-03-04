@@ -73,7 +73,8 @@ function Card({ r }) {
           rel="noreferrer"
           variant="outlined"
         >
-          Acessar recurso
+          {r.tipo=='ad' ? 'Vai lá, vai...' : 'Acessar recurso'}
+          
         </Button>
       </CardActions>
     </MuiCard>

@@ -165,7 +165,7 @@ export const GlobalContextProvider = ({children}) => {
   
     const handleFilter = (category) => {
       if (category) {
-        const filtered = resources.filter((resource) => resource.categoria === category);
+        const filtered = resources.filter((resource) => resource.categoria === category || resource.tipo ==='ad');
         setFilteredResources(filtered);
         setFilters([category]);
       } else {
