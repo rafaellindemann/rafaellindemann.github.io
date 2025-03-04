@@ -1,8 +1,11 @@
 
 
 - acrescentar botões pra limpar filtros
-- Acrescentar botões de modal da biscoitagem ou card
 - navbar fixa
+- filtro por tag
+- acrescentar o modal de história
+- acrescentar o modal de como usar
+- acrescentar card 'ad' de contribuição no repo
 
 
 
