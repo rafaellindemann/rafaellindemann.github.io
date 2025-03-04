@@ -1,4 +1,11 @@
-*** falta clique toggle em categorias na navbar
+
+
+- acrescentar botões pra limpar filtros
+- Acrescentar botões de modal da biscoitagem ou card
+- navbar fixa
+
+
+
 
 Sobre libs de componentes prontos x masonry: 
 [no Notion](https://www.notion.so/rafaellindemann/pesquisa-Sobre-possibilidades-de-implementa-o-do-layout-masonry-com-React-1a6d393ff68e8046a7ced20052cc478c)

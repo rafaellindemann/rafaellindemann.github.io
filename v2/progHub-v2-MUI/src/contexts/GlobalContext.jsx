@@ -157,8 +157,10 @@ export const GlobalContextProvider = ({children}) => {
     const [filteredResources, setFilteredResources] = useState(resources);
     const [filters, setFilters] = useState([]);
 
-    useEffect(() => 
-    console.log(filters)
+    useEffect(() => {
+    console.log(filters);
+    console.log(filteredResources.length)
+    }
 ,[filters])
   
     const handleFilter = (category) => {
