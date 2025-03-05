@@ -89,7 +89,7 @@ function Header() {
       >
         {/* Primeira linha: Logo e botões de ação */}
         <Box
-        elevation={10}
+        // elevation={10}
           sx={{
             width: "100%",
             display: "flex",
@@ -119,17 +119,18 @@ function Header() {
               display: "flex", 
               alignItems: "center",
               gap: 2, // Espaçamento entre o contador e os botões
+              color: 'white',
             }}
             >
             {/* Contador de registros */}
-            <Typography variant="body1" sx={{ fontWeight: "bold", color: 'secondary.main' }} >
+            <Typography variant="body1" sx={{  color: 'white' }} >
               {filteredResources.length}/{resources.length}
             </Typography>
 
             {/* Botões de ação */}
             <ButtonGroup>
               <IconButton color="secondary" onClick={mostrarModal}>
-                <AddIcon />
+                <AddIcon color="secondary" />
               </IconButton>
               <IconButton color="secondary" onClick={mostrarSobre}>
                 <HelpIcon />
