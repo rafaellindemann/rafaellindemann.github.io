@@ -73,6 +73,8 @@ function Header() {
       sx={{
         backgroundColor: "snow",
         bgcolor: '#6B8E23', 
+        // backgroundImage: `url('/tortoise-shell-2.svg')`,
+        backgroundImage: `url('/forest-2.svg')`,
         color: "text.primary",
         boxShadow: 1,
         padding: 1,
@@ -128,14 +130,14 @@ function Header() {
             </Typography>
 
             {/* Botões de ação */}
-            <ButtonGroup>
+            {/* <ButtonGroup>
               <IconButton color="secondary" onClick={mostrarModal}>
                 <AddIcon color="secondary" />
               </IconButton>
               <IconButton color="secondary" onClick={mostrarSobre}>
                 <HelpIcon />
               </IconButton>
-            </ButtonGroup>
+            </ButtonGroup> */}
           </Box>
         </Box>
 

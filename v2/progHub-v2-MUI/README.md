@@ -9,6 +9,14 @@
 
 
 
+backgrounds svg em:
+https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+
+https://www.vecteezy.com/vector-art/6894757-village-house-in-the-forest-cottage-among-trees-and-mountains-cartoon-vector-illustration
+
+
+
+
 
 Sobre libs de componentes prontos x masonry: 
 [no Notion](https://www.notion.so/rafaellindemann/pesquisa-Sobre-possibilidades-de-implementa-o-do-layout-masonry-com-React-1a6d393ff68e8046a7ced20052cc478c)
