@@ -75,6 +75,8 @@ function Header() {
         bgcolor: '#6B8E23', 
         // backgroundImage: `url('/tortoise-shell-2.svg')`,
         backgroundImage: `url('/forest-2.svg')`,
+        // backgroundImage: `url('/pattern-gh.svg')`,
+        // backgroundImage: `url('/pattern-gh2.svg')`,
         color: "text.primary",
         boxShadow: 1,
         padding: 1,
