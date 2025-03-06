@@ -1,7 +1,7 @@
 
 
 - acrescentar botões pra limpar filtros
-- navbar fixa
+- navbar fixa (ou não?)
 - filtro por tag
 - acrescentar o modal de história
 - acrescentar o modal de como usar
