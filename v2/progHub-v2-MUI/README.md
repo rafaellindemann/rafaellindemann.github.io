@@ -1,4 +1,11 @@
 
+*** Implementei a política de filtros com tag e categoria, mas não me agradou.
+- botão "ver tag em todas categorias" tá limpando tudo;
+- as tags nos registros precisam ser refatoradas urgente;
+- tag não tá clicável na versão mobile, pelo menos no navegador.
+
+
+
 
 - acrescentar botões pra limpar filtros
 - navbar fixa (ou não?)
