@@ -75,7 +75,7 @@ function Card({ r }) {
           href={r.link} 
           target="_blank" 
           rel="noreferrer"
-          variant="outlined"
+          variant="contained"
         >
           {r.tipo === 'ad' ? 'Vai lá, vai...' : 'Acessar recurso'}
         </Button>

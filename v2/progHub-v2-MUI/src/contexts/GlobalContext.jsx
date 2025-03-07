@@ -148,6 +148,7 @@ export const GlobalContextProvider = ({ children }) => {
       { id: 139, nome: 'Pattern Monster', tipo: 'normal', categoria: 'Ferramentas', descricao: 'Ótima ferramenta para criar padrões possivelmente bonitos para usar como background. Aprecie muito, mas com cuidado!', link: 'pattern.monster', tags: ['Ferramenta', 'Patterns', 'Background', 'Imagens'] },
       { id: 140, nome: 'Curso Completo Lógica com Portugol (8h30m)', tipo: 'normal', categoria: 'Curso Youtube', descricao: 'Baita cursão do Bóson - Lógica usando o Portugol Studio!', link: 'https://www.youtube.com/watch?v=XzkZO2qjgec&t=1771s&ab_channel=B%C3%B3sonTreinamentos', tags: ['Lógica', 'Portugol Studio', 'Iniciante', 'Juninho', 'Reforço'] },
       { id: 141, nome: 'Playlist do Bóson Lógica com Portugol (mais de 40 vídeos)', tipo: 'normal', categoria: 'Curso Youtube', descricao: 'Playlist de Lógica com muito vídeo usando o Portugol Studio!', link: 'https://www.youtube.com/watch?v=4IMr8PQa0WQ&list=PLucm8g_ezqNp_ubuH4XraJRwvUJogsyiF&ab_channel=B%C3%B3sonTreinamentos', tags: ['Lógica', 'Portugol Studio', 'Iniciante', 'Juninho', 'Reforço', 'Playlist'] },
+      { id: 142, nome: 'Curso Lógica com Javascript - Serliv', tipo: 'normal', categoria: 'Curso Youtube', descricao: 'Playlist do Curso de Lógica de Programação com Javascript do canal Serliv', link: 'https://www.youtube.com/watch?v=lxb567HEn8k&list=PL1dUY2RYa2RidB3B134ywckDyf-FOwbv7&ab_channel=Serliv', tags: ['Lógica', 'Javascript', 'JS', 'Iniciante', 'Juninho', 'Reforço', 'Playlist'] },
     ]
 
   const categories = [
