@@ -15,7 +15,10 @@ https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
 https://www.vecteezy.com/vector-art/6894757-village-house-in-the-forest-cottage-among-trees-and-mountains-cartoon-vector-illustration
 
 
-
+Fontes para verificar: ***
+Jost
+Plus JAkarta Sans
+Geist
 
 
 Sobre libs de componentes prontos x masonry: 
